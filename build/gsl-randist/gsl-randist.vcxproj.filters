@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="randist">
+      <UniqueIdentifier>{a40dd87a-8006-4e27-879a-bd303bd7785d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\randist\bernoulli.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\beta.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\bigauss.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\binomial.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\binomial_tpe.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\cauchy.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\chisq.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\dirichlet.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\discrete.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\erlang.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\exponential.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\exppow.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\fdist.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\flat.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\gamma.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\gauss.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\gausstail.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\gausszig.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\geometric.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\gumbel.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\hyperg.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\landau.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\laplace.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\levy.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\logarithmic.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\logistic.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\lognormal.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\multinomial.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\nbinomial.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\pareto.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\pascal.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\poisson.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\rayleigh.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\shuffle.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\sphere.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\tdist.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\randist\weibull.c">
+      <Filter>randist</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\randist\gsl_randist.h">
+      <Filter>randist</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

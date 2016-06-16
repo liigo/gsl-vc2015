@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="roots">
+      <UniqueIdentifier>{9aeb13a1-48a7-450b-9995-71680cf809ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\roots\bisection.c">
+      <Filter>roots</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\roots\brent.c">
+      <Filter>roots</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\roots\convergence.c">
+      <Filter>roots</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\roots\falsepos.c">
+      <Filter>roots</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\roots\fdfsolver.c">
+      <Filter>roots</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\roots\fsolver.c">
+      <Filter>roots</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\roots\newton.c">
+      <Filter>roots</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\roots\secant.c">
+      <Filter>roots</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\roots\steffenson.c">
+      <Filter>roots</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\roots\gsl_roots.h">
+      <Filter>roots</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\roots\roots.h">
+      <Filter>roots</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

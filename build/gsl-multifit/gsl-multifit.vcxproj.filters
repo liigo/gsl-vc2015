@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="multifit">
+      <UniqueIdentifier>{cf824505-29da-4842-923c-2b6ac20799c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\multifit\convergence.c">
+      <Filter>multifit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\multifit\covar.c">
+      <Filter>multifit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\multifit\fdfridge.c">
+      <Filter>multifit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\multifit\fdfsolver.c">
+      <Filter>multifit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\multifit\fdjac.c">
+      <Filter>multifit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\multifit\fsolver.c">
+      <Filter>multifit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\multifit\gradient.c">
+      <Filter>multifit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\multifit\linear_common.c">
+      <Filter>multifit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\multifit\lmder.c">
+      <Filter>multifit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\multifit\lmniel.c">
+      <Filter>multifit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\multifit\multilinear.c">
+      <Filter>multifit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\multifit\multireg.c">
+      <Filter>multifit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\multifit\multirobust.c">
+      <Filter>multifit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\multifit\multiwlinear.c">
+      <Filter>multifit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\multifit\robust_wfun.c">
+      <Filter>multifit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\multifit\work.c">
+      <Filter>multifit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\multifit\gsl_multifit.h">
+      <Filter>multifit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\multifit\gsl_multifit_nlin.h">
+      <Filter>multifit</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

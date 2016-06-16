@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="histogram">
+      <UniqueIdentifier>{f4d8f16d-5d30-43ab-910d-d12d395e7bc6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\histogram\add.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\add2d.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\calloc_range.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\calloc_range2d.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\copy.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\copy2d.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\file.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\file2d.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\get.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\get2d.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\init.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\init2d.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\maxval.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\maxval2d.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\oper.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\oper2d.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\params.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\params2d.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\pdf.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\pdf2d.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\reset.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\reset2d.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\stat.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\stat2d.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histogram\urand.c">
+      <Filter>histogram</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\histogram\gsl_histogram.h">
+      <Filter>histogram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\histogram\gsl_histogram2d.h">
+      <Filter>histogram</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
