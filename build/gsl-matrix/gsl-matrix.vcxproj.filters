@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="matrix">
+      <UniqueIdentifier>{54c7c274-7fd8-4685-bdfd-65cd08447764}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\matrix\copy.c">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\matrix\file.c">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\matrix\getset.c">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\matrix\init.c">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\matrix\matrix.c">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\matrix\minmax.c">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\matrix\oper.c">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\matrix\prop.c">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\matrix\rowcol.c">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\matrix\submatrix.c">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\matrix\swap.c">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\matrix\view.c">
+      <Filter>matrix</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\matrix\gsl_matrix.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\matrix\view.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

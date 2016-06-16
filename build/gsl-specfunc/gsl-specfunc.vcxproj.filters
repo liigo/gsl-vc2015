@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="specfunc">
+      <UniqueIdentifier>{0f21a10e-fcff-4038-9196-16e44311661e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\specfunc\airy.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\airy_der.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\airy_zero.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\atanint.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_amp_phase.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_i.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_I0.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_I1.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_In.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_Inu.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_j.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_J0.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_J1.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_Jn.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_Jnu.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_k.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_K0.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_K1.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_Kn.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_Knu.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_olver.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_sequence.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_temme.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_y.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_Y0.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_Y1.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_Yn.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_Ynu.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\bessel_zero.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\beta.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\beta_inc.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\clausen.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\coulomb.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\coulomb_bound.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\coupling.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\dawson.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\debye.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\dilog.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\elementary.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\ellint.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\elljac.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\erfc.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\exp.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\expint.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\expint3.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\fermi_dirac.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\gamma.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\gamma_inc.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\gegenbauer.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\hyperg.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\hyperg_0F1.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\hyperg_1F1.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\hyperg_2F0.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\hyperg_2F1.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\hyperg_U.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\laguerre.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\lambert.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\legendre_con.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\legendre_H3d.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\legendre_P.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\legendre_poly.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\legendre_Qn.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\log.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\mathieu_angfunc.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\mathieu_charv.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\mathieu_coeff.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\mathieu_radfunc.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\mathieu_workspace.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\poch.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\pow_int.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\psi.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\result.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\shint.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\sinint.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\synchrotron.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\transport.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\trig.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\specfunc\zeta.c">
+      <Filter>specfunc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\specfunc\bessel.h">
+      <Filter>specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\bessel_amp_phase.h">
+      <Filter>specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\bessel_olver.h">
+      <Filter>specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\bessel_temme.h">
+      <Filter>specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\chebyshev.h">
+      <Filter>specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\check.h">
+      <Filter>specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\error.h">
+      <Filter>specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\eval.h">
+      <Filter>specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\hyperg.h">
+      <Filter>specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\legendre.h">
+      <Filter>specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\recurse.h">
+      <Filter>specfunc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

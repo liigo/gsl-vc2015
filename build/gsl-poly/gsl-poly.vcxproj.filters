@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="poly">
+      <UniqueIdentifier>{d954e591-6fe6-44f6-819d-8fd972e7c653}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\poly\dd.c">
+      <Filter>poly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poly\deriv.c">
+      <Filter>poly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poly\eval.c">
+      <Filter>poly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poly\solve_cubic.c">
+      <Filter>poly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poly\solve_quadratic.c">
+      <Filter>poly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poly\zsolve.c">
+      <Filter>poly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poly\zsolve_cubic.c">
+      <Filter>poly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poly\zsolve_init.c">
+      <Filter>poly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poly\zsolve_quadratic.c">
+      <Filter>poly</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\poly\gsl_poly.h">
+      <Filter>poly</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

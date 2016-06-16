@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ode-initval">
+      <UniqueIdentifier>{aaf0bde8-d01e-4a36-b8fa-31ea5add6633}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\ode-initval\bsimp.c">
+      <Filter>ode-initval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ode-initval\control.c">
+      <Filter>ode-initval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ode-initval\cscal.c">
+      <Filter>ode-initval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ode-initval\cstd.c">
+      <Filter>ode-initval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ode-initval\evolve.c">
+      <Filter>ode-initval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ode-initval\gear1.c">
+      <Filter>ode-initval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ode-initval\gear2.c">
+      <Filter>ode-initval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ode-initval\rk2.c">
+      <Filter>ode-initval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ode-initval\rk2imp.c">
+      <Filter>ode-initval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ode-initval\rk2simp.c">
+      <Filter>ode-initval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ode-initval\rk4.c">
+      <Filter>ode-initval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ode-initval\rk4imp.c">
+      <Filter>ode-initval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ode-initval\rk8pd.c">
+      <Filter>ode-initval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ode-initval\rkck.c">
+      <Filter>ode-initval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ode-initval\rkf45.c">
+      <Filter>ode-initval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ode-initval\step.c">
+      <Filter>ode-initval</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ode-initval\gsl_odeiv.h">
+      <Filter>ode-initval</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ode-initval\odeiv_util.h">
+      <Filter>ode-initval</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

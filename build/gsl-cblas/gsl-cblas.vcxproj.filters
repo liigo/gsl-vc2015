@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="cblas">
+      <UniqueIdentifier>{ece18916-d689-4bb4-bd11-65786267e723}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\cblas\caxpy.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ccopy.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\cdotc_sub.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\cdotu_sub.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\cgbmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\cgemm.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\cgemv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\cgerc.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\cgeru.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\chbmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\chemm.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\chemv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\cher.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\cher2.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\cher2k.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\cherk.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\chpmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\chpr.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\chpr2.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\cscal.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\csscal.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\cswap.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\csymm.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\csyr2k.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\csyrk.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ctbmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ctbsv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ctpmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ctpsv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ctrmm.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ctrmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ctrsm.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ctrsv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dasum.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\daxpy.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dcopy.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ddot.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dgbmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dgemm.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dgemv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dger.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dnrm2.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\drot.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\drotg.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\drotm.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\drotmg.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dsbmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dscal.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dsdot.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dspmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dspr.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dspr2.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dswap.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dsymm.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dsymv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dsyr.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dsyr2.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dsyr2k.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dsyrk.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dtbmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dtbsv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dtpmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dtpsv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dtrmm.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dtrmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dtrsm.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dtrsv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dzasum.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\dznrm2.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\hypot.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\icamax.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\idamax.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\isamax.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\izamax.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\sasum.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\saxpy.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\scasum.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\scnrm2.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\scopy.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\sdot.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\sdsdot.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\sgbmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\sgemm.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\sgemv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\sger.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\snrm2.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\srot.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\srotg.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\srotm.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\srotmg.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ssbmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\sscal.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\sspmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\sspr.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\sspr2.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\sswap.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ssymm.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ssymv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ssyr.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ssyr2.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ssyr2k.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ssyrk.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\stbmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\stbsv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\stpmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\stpsv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\strmm.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\strmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\strsm.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\strsv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\xerbla.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zaxpy.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zcopy.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zdotc_sub.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zdotu_sub.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zdscal.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zgbmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zgemm.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zgemv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zgerc.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zgeru.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zhbmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zhemm.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zhemv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zher.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zher2.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zher2k.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zherk.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zhpmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zhpr.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zhpr2.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zscal.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zswap.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zsymm.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zsyr2k.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\zsyrk.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ztbmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ztbsv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ztpmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ztpsv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ztrmm.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ztrmv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ztrsm.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cblas\ztrsv.c">
+      <Filter>cblas</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\cblas\cblas.h">
+      <Filter>cblas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cblas\error_cblas.h">
+      <Filter>cblas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cblas\error_cblas_l2.h">
+      <Filter>cblas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cblas\error_cblas_l3.h">
+      <Filter>cblas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cblas\gsl_cblas.h">
+      <Filter>cblas</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

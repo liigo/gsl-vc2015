@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="rng">
+      <UniqueIdentifier>{57657b91-3867-441d-b4bf-ee975b42d1d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\rng\borosh13.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\cmrg.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\coveyou.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\default.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\file.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\fishman18.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\fishman20.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\fishman2x.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\gfsr4.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\inline.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\knuthran.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\knuthran2.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\knuthran2002.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\lecuyer21.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\minstd.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\mrg.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\mt.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\r250.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\ran0.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\ran1.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\ran2.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\ran3.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\rand.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\rand48.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\random.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\randu.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\ranf.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\ranlux.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\ranlxd.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\ranlxs.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\ranmar.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\rng.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\schrage.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\slatec.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\taus.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\taus113.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\transputer.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\tt.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\types.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\uni.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\uni32.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\vax.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\waterman14.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rng\zuf.c">
+      <Filter>rng</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\rng\gsl_rng.h">
+      <Filter>rng</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
