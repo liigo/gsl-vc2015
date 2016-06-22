@@ -4,7 +4,7 @@ Static lib projects of GNU GSL 2.1 build with VC2015. by Liigo, 20160616.
 
 [GNU GSL](http://www.gnu.org/software/gsl/) v2.1 的 VC2015 工程，可编译出在Windows系统下使用的静态库(.lib)。
 
-本项目生成的静态库使用x86指令集，支持链接到32位可执行程序，可在XP系统下运行。如果您需要64位版本，可考虑修改编译配置重新生成，或者考虑使用[ampl-gsl](https://github.com/ampl/gsl/)编译。
+本项目生成的静态库使用x86指令集，支持链接到32位可执行程序。如果您需要64位版本，可考虑修改编译配置重新生成，或者考虑使用[ampl-gsl](https://github.com/ampl/gsl/)编译。
 
 由于技术原因，我将GSL各子模块分别编译，共生成 43 个静态库文件（[打包下载](https://github.com/liigo/gsl-vc2015/files/318076/gsl2.1-vc2015-20160616.zip)），列表如下：
 
