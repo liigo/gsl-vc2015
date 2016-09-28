@@ -21,21 +21,21 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\cheb\deriv.c">
+    <ClCompile Include="..\..\src\cheb\deriv.c">
       <Filter>cheb</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cheb\eval.c">
+    <ClCompile Include="..\..\src\cheb\eval.c">
       <Filter>cheb</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cheb\init.c">
+    <ClCompile Include="..\..\src\cheb\init.c">
       <Filter>cheb</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cheb\integ.c">
+    <ClCompile Include="..\..\src\cheb\integ.c">
       <Filter>cheb</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\cheb\gsl_chebyshev.h">
+    <ClInclude Include="..\..\src\cheb\gsl_chebyshev.h">
       <Filter>cheb</Filter>
     </ClInclude>
   </ItemGroup>

@@ -135,13 +135,13 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\cheb\deriv.c" />
-    <ClCompile Include="..\..\cheb\eval.c" />
-    <ClCompile Include="..\..\cheb\init.c" />
-    <ClCompile Include="..\..\cheb\integ.c" />
+    <ClCompile Include="..\..\src\cheb\deriv.c" />
+    <ClCompile Include="..\..\src\cheb\eval.c" />
+    <ClCompile Include="..\..\src\cheb\init.c" />
+    <ClCompile Include="..\..\src\cheb\integ.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\cheb\gsl_chebyshev.h" />
+    <ClInclude Include="..\..\src\cheb\gsl_chebyshev.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

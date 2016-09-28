@@ -137,10 +137,10 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\test\gsl_test.h" />
+    <ClInclude Include="..\..\..\src\test\gsl_test.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\test\results.c" />
+    <ClCompile Include="..\..\..\src\test\results.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

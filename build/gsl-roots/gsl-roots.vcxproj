@@ -135,19 +135,19 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\roots\bisection.c" />
-    <ClCompile Include="..\..\roots\brent.c" />
-    <ClCompile Include="..\..\roots\convergence.c" />
-    <ClCompile Include="..\..\roots\falsepos.c" />
-    <ClCompile Include="..\..\roots\fdfsolver.c" />
-    <ClCompile Include="..\..\roots\fsolver.c" />
-    <ClCompile Include="..\..\roots\newton.c" />
-    <ClCompile Include="..\..\roots\secant.c" />
-    <ClCompile Include="..\..\roots\steffenson.c" />
+    <ClCompile Include="..\..\src\roots\bisection.c" />
+    <ClCompile Include="..\..\src\roots\brent.c" />
+    <ClCompile Include="..\..\src\roots\convergence.c" />
+    <ClCompile Include="..\..\src\roots\falsepos.c" />
+    <ClCompile Include="..\..\src\roots\fdfsolver.c" />
+    <ClCompile Include="..\..\src\roots\fsolver.c" />
+    <ClCompile Include="..\..\src\roots\newton.c" />
+    <ClCompile Include="..\..\src\roots\secant.c" />
+    <ClCompile Include="..\..\src\roots\steffenson.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\roots\gsl_roots.h" />
-    <ClInclude Include="..\..\roots\roots.h" />
+    <ClInclude Include="..\..\src\roots\gsl_roots.h" />
+    <ClInclude Include="..\..\src\roots\roots.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

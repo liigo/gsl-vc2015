@@ -135,10 +135,10 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\multiset\file.c" />
-    <ClCompile Include="..\..\multiset\init.c" />
-    <ClCompile Include="..\..\multiset\inline.c" />
-    <ClCompile Include="..\..\multiset\multiset.c" />
+    <ClCompile Include="..\..\src\multiset\file.c" />
+    <ClCompile Include="..\..\src\multiset\init.c" />
+    <ClCompile Include="..\..\src\multiset\inline.c" />
+    <ClCompile Include="..\..\src\multiset\multiset.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

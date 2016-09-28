@@ -135,17 +135,17 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\spmatrix\avl.c" />
-    <ClCompile Include="..\..\spmatrix\spcompress.c" />
-    <ClCompile Include="..\..\spmatrix\spcopy.c" />
-    <ClCompile Include="..\..\spmatrix\spgetset.c" />
-    <ClCompile Include="..\..\spmatrix\spmatrix.c" />
-    <ClCompile Include="..\..\spmatrix\spoper.c" />
-    <ClCompile Include="..\..\spmatrix\spprop.c" />
-    <ClCompile Include="..\..\spmatrix\spswap.c" />
+    <ClCompile Include="..\..\src\spmatrix\avl.c" />
+    <ClCompile Include="..\..\src\spmatrix\spcompress.c" />
+    <ClCompile Include="..\..\src\spmatrix\spcopy.c" />
+    <ClCompile Include="..\..\src\spmatrix\spgetset.c" />
+    <ClCompile Include="..\..\src\spmatrix\spmatrix.c" />
+    <ClCompile Include="..\..\src\spmatrix\spoper.c" />
+    <ClCompile Include="..\..\src\spmatrix\spprop.c" />
+    <ClCompile Include="..\..\src\spmatrix\spswap.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\spmatrix\gsl_spmatrix.h" />
+    <ClInclude Include="..\..\src\spmatrix\gsl_spmatrix.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

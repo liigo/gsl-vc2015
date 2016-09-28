@@ -135,8 +135,8 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\spblas\spdgemm.c" />
-    <ClCompile Include="..\..\spblas\spdgemv.c" />
+    <ClCompile Include="..\..\src\spblas\spdgemm.c" />
+    <ClCompile Include="..\..\src\spblas\spdgemv.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -21,10 +21,10 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\siman\siman.c">
+    <ClCompile Include="..\..\src\siman\siman.c">
       <Filter>siman</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\siman\siman_tsp.c">
+    <ClCompile Include="..\..\src\siman\siman_tsp.c">
       <Filter>siman</Filter>
     </ClCompile>
   </ItemGroup>

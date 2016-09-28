@@ -135,15 +135,15 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\qrng\halton.c" />
-    <ClCompile Include="..\..\qrng\inline.c" />
-    <ClCompile Include="..\..\qrng\niederreiter-2.c" />
-    <ClCompile Include="..\..\qrng\qrng.c" />
-    <ClCompile Include="..\..\qrng\reversehalton.c" />
-    <ClCompile Include="..\..\qrng\sobol.c" />
+    <ClCompile Include="..\..\src\qrng\halton.c" />
+    <ClCompile Include="..\..\src\qrng\inline.c" />
+    <ClCompile Include="..\..\src\qrng\niederreiter-2.c" />
+    <ClCompile Include="..\..\src\qrng\qrng.c" />
+    <ClCompile Include="..\..\src\qrng\reversehalton.c" />
+    <ClCompile Include="..\..\src\qrng\sobol.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\qrng\gsl_qrng.h" />
+    <ClInclude Include="..\..\src\qrng\gsl_qrng.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

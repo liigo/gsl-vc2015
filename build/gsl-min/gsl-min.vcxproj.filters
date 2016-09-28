@@ -21,30 +21,30 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\min\bracketing.c">
+    <ClCompile Include="..\..\src\min\bracketing.c">
       <Filter>min</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\min\brent.c">
+    <ClCompile Include="..\..\src\min\brent.c">
       <Filter>min</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\min\convergence.c">
+    <ClCompile Include="..\..\src\min\convergence.c">
       <Filter>min</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\min\fsolver.c">
+    <ClCompile Include="..\..\src\min\fsolver.c">
       <Filter>min</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\min\golden.c">
+    <ClCompile Include="..\..\src\min\golden.c">
       <Filter>min</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\min\quad_golden.c">
+    <ClCompile Include="..\..\src\min\quad_golden.c">
       <Filter>min</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\min\gsl_min.h">
+    <ClInclude Include="..\..\src\min\gsl_min.h">
       <Filter>min</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\min\min.h">
+    <ClInclude Include="..\..\src\min\min.h">
       <Filter>min</Filter>
     </ClInclude>
   </ItemGroup>

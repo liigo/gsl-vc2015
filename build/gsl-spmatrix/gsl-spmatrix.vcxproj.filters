@@ -21,33 +21,33 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\spmatrix\avl.c">
+    <ClCompile Include="..\..\src\spmatrix\avl.c">
       <Filter>spmatrix</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\spmatrix\spcompress.c">
+    <ClCompile Include="..\..\src\spmatrix\spcompress.c">
       <Filter>spmatrix</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\spmatrix\spcopy.c">
+    <ClCompile Include="..\..\src\spmatrix\spcopy.c">
       <Filter>spmatrix</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\spmatrix\spgetset.c">
+    <ClCompile Include="..\..\src\spmatrix\spgetset.c">
       <Filter>spmatrix</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\spmatrix\spmatrix.c">
+    <ClCompile Include="..\..\src\spmatrix\spmatrix.c">
       <Filter>spmatrix</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\spmatrix\spoper.c">
+    <ClCompile Include="..\..\src\spmatrix\spoper.c">
       <Filter>spmatrix</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\spmatrix\spprop.c">
+    <ClCompile Include="..\..\src\spmatrix\spprop.c">
       <Filter>spmatrix</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\spmatrix\spswap.c">
+    <ClCompile Include="..\..\src\spmatrix\spswap.c">
       <Filter>spmatrix</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\spmatrix\gsl_spmatrix.h">
+    <ClInclude Include="..\..\src\spmatrix\gsl_spmatrix.h">
       <Filter>spmatrix</Filter>
     </ClInclude>
   </ItemGroup>

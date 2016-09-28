@@ -135,20 +135,20 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\vector\copy.c" />
-    <ClCompile Include="..\..\vector\file.c" />
-    <ClCompile Include="..\..\vector\init.c" />
-    <ClCompile Include="..\..\vector\minmax.c" />
-    <ClCompile Include="..\..\vector\oper.c" />
-    <ClCompile Include="..\..\vector\prop.c" />
-    <ClCompile Include="..\..\vector\reim.c" />
-    <ClCompile Include="..\..\vector\subvector.c" />
-    <ClCompile Include="..\..\vector\swap.c" />
-    <ClCompile Include="..\..\vector\vector.c" />
-    <ClCompile Include="..\..\vector\view.c" />
+    <ClCompile Include="..\..\src\vector\copy.c" />
+    <ClCompile Include="..\..\src\vector\file.c" />
+    <ClCompile Include="..\..\src\vector\init.c" />
+    <ClCompile Include="..\..\src\vector\minmax.c" />
+    <ClCompile Include="..\..\src\vector\oper.c" />
+    <ClCompile Include="..\..\src\vector\prop.c" />
+    <ClCompile Include="..\..\src\vector\reim.c" />
+    <ClCompile Include="..\..\src\vector\subvector.c" />
+    <ClCompile Include="..\..\src\vector\swap.c" />
+    <ClCompile Include="..\..\src\vector\vector.c" />
+    <ClCompile Include="..\..\src\vector\view.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\vector\view.h" />
+    <ClInclude Include="..\..\src\vector\view.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

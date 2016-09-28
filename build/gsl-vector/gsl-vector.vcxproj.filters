@@ -21,42 +21,42 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\vector\copy.c">
+    <ClCompile Include="..\..\src\vector\copy.c">
       <Filter>vector</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vector\file.c">
+    <ClCompile Include="..\..\src\vector\file.c">
       <Filter>vector</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vector\init.c">
+    <ClCompile Include="..\..\src\vector\init.c">
       <Filter>vector</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vector\minmax.c">
+    <ClCompile Include="..\..\src\vector\minmax.c">
       <Filter>vector</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vector\oper.c">
+    <ClCompile Include="..\..\src\vector\oper.c">
       <Filter>vector</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vector\prop.c">
+    <ClCompile Include="..\..\src\vector\prop.c">
       <Filter>vector</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vector\reim.c">
+    <ClCompile Include="..\..\src\vector\reim.c">
       <Filter>vector</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vector\subvector.c">
+    <ClCompile Include="..\..\src\vector\subvector.c">
       <Filter>vector</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vector\swap.c">
+    <ClCompile Include="..\..\src\vector\swap.c">
       <Filter>vector</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vector\vector.c">
+    <ClCompile Include="..\..\src\vector\vector.c">
       <Filter>vector</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vector\view.c">
+    <ClCompile Include="..\..\src\vector\view.c">
       <Filter>vector</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\vector\view.h">
+    <ClInclude Include="..\..\src\vector\view.h">
       <Filter>vector</Filter>
     </ClInclude>
   </ItemGroup>

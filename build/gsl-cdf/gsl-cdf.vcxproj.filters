@@ -21,138 +21,138 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\cdf\beta.c">
+    <ClCompile Include="..\..\src\cdf\beta.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\betainv.c">
+    <ClCompile Include="..\..\src\cdf\betainv.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\binomial.c">
+    <ClCompile Include="..\..\src\cdf\binomial.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\cauchy.c">
+    <ClCompile Include="..\..\src\cdf\cauchy.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\cauchyinv.c">
+    <ClCompile Include="..\..\src\cdf\cauchyinv.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\chisq.c">
+    <ClCompile Include="..\..\src\cdf\chisq.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\chisqinv.c">
+    <ClCompile Include="..\..\src\cdf\chisqinv.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\exponential.c">
+    <ClCompile Include="..\..\src\cdf\exponential.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\exponentialinv.c">
+    <ClCompile Include="..\..\src\cdf\exponentialinv.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\exppow.c">
+    <ClCompile Include="..\..\src\cdf\exppow.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\fdist.c">
+    <ClCompile Include="..\..\src\cdf\fdist.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\fdistinv.c">
+    <ClCompile Include="..\..\src\cdf\fdistinv.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\flat.c">
+    <ClCompile Include="..\..\src\cdf\flat.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\flatinv.c">
+    <ClCompile Include="..\..\src\cdf\flatinv.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\gamma.c">
+    <ClCompile Include="..\..\src\cdf\gamma.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\gammainv.c">
+    <ClCompile Include="..\..\src\cdf\gammainv.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\gauss.c">
+    <ClCompile Include="..\..\src\cdf\gauss.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\gaussinv.c">
+    <ClCompile Include="..\..\src\cdf\gaussinv.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\geometric.c">
+    <ClCompile Include="..\..\src\cdf\geometric.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\gumbel1.c">
+    <ClCompile Include="..\..\src\cdf\gumbel1.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\gumbel1inv.c">
+    <ClCompile Include="..\..\src\cdf\gumbel1inv.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\gumbel2.c">
+    <ClCompile Include="..\..\src\cdf\gumbel2.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\gumbel2inv.c">
+    <ClCompile Include="..\..\src\cdf\gumbel2inv.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\hypergeometric.c">
+    <ClCompile Include="..\..\src\cdf\hypergeometric.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\laplace.c">
+    <ClCompile Include="..\..\src\cdf\laplace.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\laplaceinv.c">
+    <ClCompile Include="..\..\src\cdf\laplaceinv.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\logistic.c">
+    <ClCompile Include="..\..\src\cdf\logistic.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\logisticinv.c">
+    <ClCompile Include="..\..\src\cdf\logisticinv.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\lognormal.c">
+    <ClCompile Include="..\..\src\cdf\lognormal.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\lognormalinv.c">
+    <ClCompile Include="..\..\src\cdf\lognormalinv.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\nbinomial.c">
+    <ClCompile Include="..\..\src\cdf\nbinomial.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\pareto.c">
+    <ClCompile Include="..\..\src\cdf\pareto.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\paretoinv.c">
+    <ClCompile Include="..\..\src\cdf\paretoinv.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\pascal.c">
+    <ClCompile Include="..\..\src\cdf\pascal.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\poisson.c">
+    <ClCompile Include="..\..\src\cdf\poisson.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\rayleigh.c">
+    <ClCompile Include="..\..\src\cdf\rayleigh.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\rayleighinv.c">
+    <ClCompile Include="..\..\src\cdf\rayleighinv.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\tdist.c">
+    <ClCompile Include="..\..\src\cdf\tdist.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\tdistinv.c">
+    <ClCompile Include="..\..\src\cdf\tdistinv.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\weibull.c">
+    <ClCompile Include="..\..\src\cdf\weibull.c">
       <Filter>cdf</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cdf\weibullinv.c">
+    <ClCompile Include="..\..\src\cdf\weibullinv.c">
       <Filter>cdf</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\cdf\error.h">
+    <ClInclude Include="..\..\src\cdf\error.h">
       <Filter>cdf</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\cdf\gsl_cdf.h">
+    <ClInclude Include="..\..\src\cdf\gsl_cdf.h">
       <Filter>cdf</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\cdf\rat_eval.h">
+    <ClInclude Include="..\..\src\cdf\rat_eval.h">
       <Filter>cdf</Filter>
     </ClInclude>
   </ItemGroup>

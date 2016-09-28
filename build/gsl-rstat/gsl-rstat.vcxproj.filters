@@ -21,10 +21,10 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\rstat\rquantile.c">
+    <ClCompile Include="..\..\src\rstat\rquantile.c">
       <Filter>rstat</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rstat\rstat.c">
+    <ClCompile Include="..\..\src\rstat\rstat.c">
       <Filter>rstat</Filter>
     </ClCompile>
   </ItemGroup>

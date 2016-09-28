@@ -135,33 +135,33 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\integration\cquad.c" />
-    <ClCompile Include="..\..\integration\cquad_const.c" />
-    <ClCompile Include="..\..\integration\err.c" />
-    <ClCompile Include="..\..\integration\glfixed.c" />
-    <ClCompile Include="..\..\integration\qag.c" />
-    <ClCompile Include="..\..\integration\qagp.c" />
-    <ClCompile Include="..\..\integration\qags.c" />
-    <ClCompile Include="..\..\integration\qawc.c" />
-    <ClCompile Include="..\..\integration\qawf.c" />
-    <ClCompile Include="..\..\integration\qawo.c" />
-    <ClCompile Include="..\..\integration\qaws.c" />
-    <ClCompile Include="..\..\integration\qcheb.c" />
-    <ClCompile Include="..\..\integration\qk.c" />
-    <ClCompile Include="..\..\integration\qk15.c" />
-    <ClCompile Include="..\..\integration\qk21.c" />
-    <ClCompile Include="..\..\integration\qk31.c" />
-    <ClCompile Include="..\..\integration\qk41.c" />
-    <ClCompile Include="..\..\integration\qk51.c" />
-    <ClCompile Include="..\..\integration\qk61.c" />
-    <ClCompile Include="..\..\integration\qmomo.c" />
-    <ClCompile Include="..\..\integration\qmomof.c" />
-    <ClCompile Include="..\..\integration\qng.c" />
-    <ClCompile Include="..\..\integration\workspace.c" />
+    <ClCompile Include="..\..\src\integration\cquad.c" />
+    <ClCompile Include="..\..\src\integration\cquad_const.c" />
+    <ClCompile Include="..\..\src\integration\err.c" />
+    <ClCompile Include="..\..\src\integration\glfixed.c" />
+    <ClCompile Include="..\..\src\integration\qag.c" />
+    <ClCompile Include="..\..\src\integration\qagp.c" />
+    <ClCompile Include="..\..\src\integration\qags.c" />
+    <ClCompile Include="..\..\src\integration\qawc.c" />
+    <ClCompile Include="..\..\src\integration\qawf.c" />
+    <ClCompile Include="..\..\src\integration\qawo.c" />
+    <ClCompile Include="..\..\src\integration\qaws.c" />
+    <ClCompile Include="..\..\src\integration\qcheb.c" />
+    <ClCompile Include="..\..\src\integration\qk.c" />
+    <ClCompile Include="..\..\src\integration\qk15.c" />
+    <ClCompile Include="..\..\src\integration\qk21.c" />
+    <ClCompile Include="..\..\src\integration\qk31.c" />
+    <ClCompile Include="..\..\src\integration\qk41.c" />
+    <ClCompile Include="..\..\src\integration\qk51.c" />
+    <ClCompile Include="..\..\src\integration\qk61.c" />
+    <ClCompile Include="..\..\src\integration\qmomo.c" />
+    <ClCompile Include="..\..\src\integration\qmomof.c" />
+    <ClCompile Include="..\..\src\integration\qng.c" />
+    <ClCompile Include="..\..\src\integration\workspace.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\integration\gsl_integration.h" />
-    <ClInclude Include="..\..\integration\qng.h" />
+    <ClInclude Include="..\..\src\integration\gsl_integration.h" />
+    <ClInclude Include="..\..\src\integration\qng.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -21,16 +21,16 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\multiset\file.c">
+    <ClCompile Include="..\..\src\multiset\file.c">
       <Filter>multiset</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multiset\init.c">
+    <ClCompile Include="..\..\src\multiset\init.c">
       <Filter>multiset</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multiset\inline.c">
+    <ClCompile Include="..\..\src\multiset\inline.c">
       <Filter>multiset</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multiset\multiset.c">
+    <ClCompile Include="..\..\src\multiset\multiset.c">
       <Filter>multiset</Filter>
     </ClCompile>
   </ItemGroup>

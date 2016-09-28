@@ -15,144 +15,144 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\cblas\test.c">
+    <ClCompile Include="..\..\..\src\cblas\test.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_amax.c">
+    <ClCompile Include="..\..\..\src\cblas\test_amax.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_asum.c">
+    <ClCompile Include="..\..\..\src\cblas\test_asum.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_axpy.c">
+    <ClCompile Include="..\..\..\src\cblas\test_axpy.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_copy.c">
+    <ClCompile Include="..\..\..\src\cblas\test_copy.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_dot.c">
+    <ClCompile Include="..\..\..\src\cblas\test_dot.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_gbmv.c">
+    <ClCompile Include="..\..\..\src\cblas\test_gbmv.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_gemm.c">
+    <ClCompile Include="..\..\..\src\cblas\test_gemm.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_gemv.c">
+    <ClCompile Include="..\..\..\src\cblas\test_gemv.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_ger.c">
+    <ClCompile Include="..\..\..\src\cblas\test_ger.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_hbmv.c">
+    <ClCompile Include="..\..\..\src\cblas\test_hbmv.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_hemm.c">
+    <ClCompile Include="..\..\..\src\cblas\test_hemm.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_hemv.c">
+    <ClCompile Include="..\..\..\src\cblas\test_hemv.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_her.c">
+    <ClCompile Include="..\..\..\src\cblas\test_her.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_her2.c">
+    <ClCompile Include="..\..\..\src\cblas\test_her2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_her2k.c">
+    <ClCompile Include="..\..\..\src\cblas\test_her2k.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_herk.c">
+    <ClCompile Include="..\..\..\src\cblas\test_herk.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_hpmv.c">
+    <ClCompile Include="..\..\..\src\cblas\test_hpmv.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_hpr.c">
+    <ClCompile Include="..\..\..\src\cblas\test_hpr.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_hpr2.c">
+    <ClCompile Include="..\..\..\src\cblas\test_hpr2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_nrm2.c">
+    <ClCompile Include="..\..\..\src\cblas\test_nrm2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_rot.c">
+    <ClCompile Include="..\..\..\src\cblas\test_rot.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_rotg.c">
+    <ClCompile Include="..\..\..\src\cblas\test_rotg.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_rotm.c">
+    <ClCompile Include="..\..\..\src\cblas\test_rotm.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_rotmg.c">
+    <ClCompile Include="..\..\..\src\cblas\test_rotmg.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_sbmv.c">
+    <ClCompile Include="..\..\..\src\cblas\test_sbmv.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_scal.c">
+    <ClCompile Include="..\..\..\src\cblas\test_scal.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_spmv.c">
+    <ClCompile Include="..\..\..\src\cblas\test_spmv.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_spr.c">
+    <ClCompile Include="..\..\..\src\cblas\test_spr.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_spr2.c">
+    <ClCompile Include="..\..\..\src\cblas\test_spr2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_swap.c">
+    <ClCompile Include="..\..\..\src\cblas\test_swap.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_symm.c">
+    <ClCompile Include="..\..\..\src\cblas\test_symm.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_symv.c">
+    <ClCompile Include="..\..\..\src\cblas\test_symv.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_syr.c">
+    <ClCompile Include="..\..\..\src\cblas\test_syr.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_syr2.c">
+    <ClCompile Include="..\..\..\src\cblas\test_syr2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_syr2k.c">
+    <ClCompile Include="..\..\..\src\cblas\test_syr2k.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_syrk.c">
+    <ClCompile Include="..\..\..\src\cblas\test_syrk.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_tbmv.c">
+    <ClCompile Include="..\..\..\src\cblas\test_tbmv.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_tbsv.c">
+    <ClCompile Include="..\..\..\src\cblas\test_tbsv.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_tpmv.c">
+    <ClCompile Include="..\..\..\src\cblas\test_tpmv.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_tpsv.c">
+    <ClCompile Include="..\..\..\src\cblas\test_tpsv.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_trmm.c">
+    <ClCompile Include="..\..\..\src\cblas\test_trmm.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_trmv.c">
+    <ClCompile Include="..\..\..\src\cblas\test_trmv.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_trsm.c">
+    <ClCompile Include="..\..\..\src\cblas\test_trsm.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\cblas\test_trsv.c">
+    <ClCompile Include="..\..\..\src\cblas\test_trsv.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\cblas\tests.h">
+    <ClInclude Include="..\..\..\src\cblas\tests.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

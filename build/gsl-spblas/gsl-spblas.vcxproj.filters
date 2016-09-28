@@ -21,10 +21,10 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\spblas\spdgemm.c">
+    <ClCompile Include="..\..\src\spblas\spdgemm.c">
       <Filter>spblas</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\spblas\spdgemv.c">
+    <ClCompile Include="..\..\src\spblas\spdgemv.c">
       <Filter>spblas</Filter>
     </ClCompile>
   </ItemGroup>

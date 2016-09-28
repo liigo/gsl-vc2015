@@ -21,39 +21,39 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\multiroots\broyden.c">
+    <ClCompile Include="..\..\src\multiroots\broyden.c">
       <Filter>multiroots</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multiroots\convergence.c">
+    <ClCompile Include="..\..\src\multiroots\convergence.c">
       <Filter>multiroots</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multiroots\dnewton.c">
+    <ClCompile Include="..\..\src\multiroots\dnewton.c">
       <Filter>multiroots</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multiroots\fdfsolver.c">
+    <ClCompile Include="..\..\src\multiroots\fdfsolver.c">
       <Filter>multiroots</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multiroots\fdjac.c">
+    <ClCompile Include="..\..\src\multiroots\fdjac.c">
       <Filter>multiroots</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multiroots\fsolver.c">
+    <ClCompile Include="..\..\src\multiroots\fsolver.c">
       <Filter>multiroots</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multiroots\gnewton.c">
+    <ClCompile Include="..\..\src\multiroots\gnewton.c">
       <Filter>multiroots</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multiroots\hybrid.c">
+    <ClCompile Include="..\..\src\multiroots\hybrid.c">
       <Filter>multiroots</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multiroots\hybridj.c">
+    <ClCompile Include="..\..\src\multiroots\hybridj.c">
       <Filter>multiroots</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multiroots\newton.c">
+    <ClCompile Include="..\..\src\multiroots\newton.c">
       <Filter>multiroots</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\multiroots\gsl_multiroots.h">
+    <ClInclude Include="..\..\src\multiroots\gsl_multiroots.h">
       <Filter>multiroots</Filter>
     </ClInclude>
   </ItemGroup>

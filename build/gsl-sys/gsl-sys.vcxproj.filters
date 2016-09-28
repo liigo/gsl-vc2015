@@ -27,87 +27,87 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\sys\coerce.c">
+    <ClCompile Include="..\..\src\sys\coerce.c">
       <Filter>sys</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sys\expm1.c">
+    <ClCompile Include="..\..\src\sys\expm1.c">
       <Filter>sys</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sys\fcmp.c">
+    <ClCompile Include="..\..\src\sys\fcmp.c">
       <Filter>sys</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sys\fdiv.c">
+    <ClCompile Include="..\..\src\sys\fdiv.c">
       <Filter>sys</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sys\hypot.c">
+    <ClCompile Include="..\..\src\sys\hypot.c">
       <Filter>sys</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sys\infnan.c">
+    <ClCompile Include="..\..\src\sys\infnan.c">
       <Filter>sys</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sys\invhyp.c">
+    <ClCompile Include="..\..\src\sys\invhyp.c">
       <Filter>sys</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sys\ldfrexp.c">
+    <ClCompile Include="..\..\src\sys\ldfrexp.c">
       <Filter>sys</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sys\log1p.c">
+    <ClCompile Include="..\..\src\sys\log1p.c">
       <Filter>sys</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sys\minmax.c">
+    <ClCompile Include="..\..\src\sys\minmax.c">
       <Filter>sys</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sys\pow_int.c">
+    <ClCompile Include="..\..\src\sys\pow_int.c">
       <Filter>sys</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sys\prec.c">
+    <ClCompile Include="..\..\src\sys\prec.c">
       <Filter>sys</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ieee-utils\endian.c">
+    <ClCompile Include="..\..\src\ieee-utils\endian.c">
       <Filter>ieee-utils</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ieee-utils\env.c">
+    <ClCompile Include="..\..\src\ieee-utils\env.c">
       <Filter>ieee-utils</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ieee-utils\fp.c">
+    <ClCompile Include="..\..\src\ieee-utils\fp.c">
       <Filter>ieee-utils</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ieee-utils\make_rep.c">
+    <ClCompile Include="..\..\src\ieee-utils\make_rep.c">
       <Filter>ieee-utils</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ieee-utils\print.c">
+    <ClCompile Include="..\..\src\ieee-utils\print.c">
       <Filter>ieee-utils</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ieee-utils\read.c">
+    <ClCompile Include="..\..\src\ieee-utils\read.c">
       <Filter>ieee-utils</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ieee-utils\standardize.c">
+    <ClCompile Include="..\..\src\ieee-utils\standardize.c">
       <Filter>ieee-utils</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\err\error.c">
+    <ClCompile Include="..\..\src\err\error.c">
       <Filter>err</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\err\message.c">
+    <ClCompile Include="..\..\src\err\message.c">
       <Filter>err</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\err\stream.c">
+    <ClCompile Include="..\..\src\err\stream.c">
       <Filter>err</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\err\strerror.c">
+    <ClCompile Include="..\..\src\err\strerror.c">
       <Filter>err</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\sys\gsl_sys.h">
+    <ClInclude Include="..\..\src\sys\gsl_sys.h">
       <Filter>sys</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ieee-utils\gsl_ieee_utils.h">
+    <ClInclude Include="..\..\src\ieee-utils\gsl_ieee_utils.h">
       <Filter>ieee-utils</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\err\gsl_errno.h">
+    <ClInclude Include="..\..\src\err\gsl_errno.h">
       <Filter>err</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\err\gsl_message.h">
+    <ClInclude Include="..\..\src\err\gsl_message.h">
       <Filter>err</Filter>
     </ClInclude>
   </ItemGroup>

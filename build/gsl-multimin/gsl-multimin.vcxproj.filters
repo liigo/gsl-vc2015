@@ -21,45 +21,45 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\multimin\conjugate_fr.c">
+    <ClCompile Include="..\..\src\multimin\conjugate_fr.c">
       <Filter>multimin</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multimin\conjugate_pr.c">
+    <ClCompile Include="..\..\src\multimin\conjugate_pr.c">
       <Filter>multimin</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multimin\convergence.c">
+    <ClCompile Include="..\..\src\multimin\convergence.c">
       <Filter>multimin</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multimin\diff.c">
+    <ClCompile Include="..\..\src\multimin\diff.c">
       <Filter>multimin</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multimin\fdfminimizer.c">
+    <ClCompile Include="..\..\src\multimin\fdfminimizer.c">
       <Filter>multimin</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multimin\fminimizer.c">
+    <ClCompile Include="..\..\src\multimin\fminimizer.c">
       <Filter>multimin</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multimin\linear_minimize.c">
+    <ClCompile Include="..\..\src\multimin\linear_minimize.c">
       <Filter>multimin</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multimin\simplex.c">
+    <ClCompile Include="..\..\src\multimin\simplex.c">
       <Filter>multimin</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multimin\simplex2.c">
+    <ClCompile Include="..\..\src\multimin\simplex2.c">
       <Filter>multimin</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multimin\steepest_descent.c">
+    <ClCompile Include="..\..\src\multimin\steepest_descent.c">
       <Filter>multimin</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multimin\vector_bfgs.c">
+    <ClCompile Include="..\..\src\multimin\vector_bfgs.c">
       <Filter>multimin</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multimin\vector_bfgs2.c">
+    <ClCompile Include="..\..\src\multimin\vector_bfgs2.c">
       <Filter>multimin</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\multimin\gsl_multimin.h">
+    <ClInclude Include="..\..\src\multimin\gsl_multimin.h">
       <Filter>multimin</Filter>
     </ClInclude>
   </ItemGroup>

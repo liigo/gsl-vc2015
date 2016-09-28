@@ -21,21 +21,21 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\sum\levin_u.c">
+    <ClCompile Include="..\..\src\sum\levin_u.c">
       <Filter>sum</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sum\levin_utrunc.c">
+    <ClCompile Include="..\..\src\sum\levin_utrunc.c">
       <Filter>sum</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sum\work_u.c">
+    <ClCompile Include="..\..\src\sum\work_u.c">
       <Filter>sum</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sum\work_utrunc.c">
+    <ClCompile Include="..\..\src\sum\work_utrunc.c">
       <Filter>sum</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\sum\gsl_sum.h">
+    <ClInclude Include="..\..\src\sum\gsl_sum.h">
       <Filter>sum</Filter>
     </ClInclude>
   </ItemGroup>

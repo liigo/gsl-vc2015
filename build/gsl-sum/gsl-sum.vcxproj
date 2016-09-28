@@ -135,13 +135,13 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\sum\levin_u.c" />
-    <ClCompile Include="..\..\sum\levin_utrunc.c" />
-    <ClCompile Include="..\..\sum\work_u.c" />
-    <ClCompile Include="..\..\sum\work_utrunc.c" />
+    <ClCompile Include="..\..\src\sum\levin_u.c" />
+    <ClCompile Include="..\..\src\sum\levin_utrunc.c" />
+    <ClCompile Include="..\..\src\sum\work_u.c" />
+    <ClCompile Include="..\..\src\sum\work_utrunc.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\sum\gsl_sum.h" />
+    <ClInclude Include="..\..\src\sum\gsl_sum.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

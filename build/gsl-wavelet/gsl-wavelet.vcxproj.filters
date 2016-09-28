@@ -21,27 +21,27 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\wavelet\bspline.c">
+    <ClCompile Include="..\..\src\wavelet\bspline.c">
       <Filter>wavelet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\wavelet\daubechies.c">
+    <ClCompile Include="..\..\src\wavelet\daubechies.c">
       <Filter>wavelet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\wavelet\dwt.c">
+    <ClCompile Include="..\..\src\wavelet\dwt.c">
       <Filter>wavelet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\wavelet\haar.c">
+    <ClCompile Include="..\..\src\wavelet\haar.c">
       <Filter>wavelet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\wavelet\wavelet.c">
+    <ClCompile Include="..\..\src\wavelet\wavelet.c">
       <Filter>wavelet</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\wavelet\gsl_wavelet.h">
+    <ClInclude Include="..\..\src\wavelet\gsl_wavelet.h">
       <Filter>wavelet</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\wavelet\gsl_wavelet2d.h">
+    <ClInclude Include="..\..\src\wavelet\gsl_wavelet2d.h">
       <Filter>wavelet</Filter>
     </ClInclude>
   </ItemGroup>

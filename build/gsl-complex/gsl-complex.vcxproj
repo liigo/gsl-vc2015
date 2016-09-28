@@ -135,8 +135,8 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\complex\inline.c" />
-    <ClCompile Include="..\..\complex\math.c" />
+    <ClCompile Include="..\..\src\complex\inline.c" />
+    <ClCompile Include="..\..\src\complex\math.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

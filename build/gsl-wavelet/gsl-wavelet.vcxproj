@@ -135,15 +135,15 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\wavelet\bspline.c" />
-    <ClCompile Include="..\..\wavelet\daubechies.c" />
-    <ClCompile Include="..\..\wavelet\dwt.c" />
-    <ClCompile Include="..\..\wavelet\haar.c" />
-    <ClCompile Include="..\..\wavelet\wavelet.c" />
+    <ClCompile Include="..\..\src\wavelet\bspline.c" />
+    <ClCompile Include="..\..\src\wavelet\daubechies.c" />
+    <ClCompile Include="..\..\src\wavelet\dwt.c" />
+    <ClCompile Include="..\..\src\wavelet\haar.c" />
+    <ClCompile Include="..\..\src\wavelet\wavelet.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\wavelet\gsl_wavelet.h" />
-    <ClInclude Include="..\..\wavelet\gsl_wavelet2d.h" />
+    <ClInclude Include="..\..\src\wavelet\gsl_wavelet.h" />
+    <ClInclude Include="..\..\src\wavelet\gsl_wavelet2d.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

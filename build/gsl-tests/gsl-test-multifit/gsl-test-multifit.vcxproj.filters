@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\multifit\test.c">
+    <ClCompile Include="..\..\..\src\multifit\test.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

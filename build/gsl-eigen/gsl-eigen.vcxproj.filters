@@ -21,57 +21,57 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\eigen\francis.c">
+    <ClCompile Include="..\..\src\eigen\francis.c">
       <Filter>eigen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\eigen\gen.c">
+    <ClCompile Include="..\..\src\eigen\gen.c">
       <Filter>eigen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\eigen\genherm.c">
+    <ClCompile Include="..\..\src\eigen\genherm.c">
       <Filter>eigen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\eigen\genhermv.c">
+    <ClCompile Include="..\..\src\eigen\genhermv.c">
       <Filter>eigen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\eigen\gensymm.c">
+    <ClCompile Include="..\..\src\eigen\gensymm.c">
       <Filter>eigen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\eigen\gensymmv.c">
+    <ClCompile Include="..\..\src\eigen\gensymmv.c">
       <Filter>eigen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\eigen\genv.c">
+    <ClCompile Include="..\..\src\eigen\genv.c">
       <Filter>eigen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\eigen\herm.c">
+    <ClCompile Include="..\..\src\eigen\herm.c">
       <Filter>eigen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\eigen\hermv.c">
+    <ClCompile Include="..\..\src\eigen\hermv.c">
       <Filter>eigen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\eigen\jacobi.c">
+    <ClCompile Include="..\..\src\eigen\jacobi.c">
       <Filter>eigen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\eigen\nonsymm.c">
+    <ClCompile Include="..\..\src\eigen\nonsymm.c">
       <Filter>eigen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\eigen\nonsymmv.c">
+    <ClCompile Include="..\..\src\eigen\nonsymmv.c">
       <Filter>eigen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\eigen\schur.c">
+    <ClCompile Include="..\..\src\eigen\schur.c">
       <Filter>eigen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\eigen\sort.c">
+    <ClCompile Include="..\..\src\eigen\sort.c">
       <Filter>eigen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\eigen\symm.c">
+    <ClCompile Include="..\..\src\eigen\symm.c">
       <Filter>eigen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\eigen\symmv.c">
+    <ClCompile Include="..\..\src\eigen\symmv.c">
       <Filter>eigen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\eigen\gsl_eigen.h">
+    <ClInclude Include="..\..\src\eigen\gsl_eigen.h">
       <Filter>eigen</Filter>
     </ClInclude>
   </ItemGroup>

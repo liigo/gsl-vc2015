@@ -21,13 +21,13 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\multilarge\multilarge.c">
+    <ClCompile Include="..\..\src\multilarge\multilarge.c">
       <Filter>multilarge</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multilarge\normal.c">
+    <ClCompile Include="..\..\src\multilarge\normal.c">
       <Filter>multilarge</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multilarge\tsqr.c">
+    <ClCompile Include="..\..\src\multilarge\tsqr.c">
       <Filter>multilarge</Filter>
     </ClCompile>
   </ItemGroup>

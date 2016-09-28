@@ -21,48 +21,48 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\matrix\copy.c">
+    <ClCompile Include="..\..\src\matrix\copy.c">
       <Filter>matrix</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\matrix\file.c">
+    <ClCompile Include="..\..\src\matrix\file.c">
       <Filter>matrix</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\matrix\getset.c">
+    <ClCompile Include="..\..\src\matrix\getset.c">
       <Filter>matrix</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\matrix\init.c">
+    <ClCompile Include="..\..\src\matrix\init.c">
       <Filter>matrix</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\matrix\matrix.c">
+    <ClCompile Include="..\..\src\matrix\matrix.c">
       <Filter>matrix</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\matrix\minmax.c">
+    <ClCompile Include="..\..\src\matrix\minmax.c">
       <Filter>matrix</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\matrix\oper.c">
+    <ClCompile Include="..\..\src\matrix\oper.c">
       <Filter>matrix</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\matrix\prop.c">
+    <ClCompile Include="..\..\src\matrix\prop.c">
       <Filter>matrix</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\matrix\rowcol.c">
+    <ClCompile Include="..\..\src\matrix\rowcol.c">
       <Filter>matrix</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\matrix\submatrix.c">
+    <ClCompile Include="..\..\src\matrix\submatrix.c">
       <Filter>matrix</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\matrix\swap.c">
+    <ClCompile Include="..\..\src\matrix\swap.c">
       <Filter>matrix</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\matrix\view.c">
+    <ClCompile Include="..\..\src\matrix\view.c">
       <Filter>matrix</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\matrix\gsl_matrix.h">
+    <ClInclude Include="..\..\src\matrix\gsl_matrix.h">
       <Filter>matrix</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\matrix\view.h">
+    <ClInclude Include="..\..\src\matrix\view.h">
       <Filter>matrix</Filter>
     </ClInclude>
   </ItemGroup>

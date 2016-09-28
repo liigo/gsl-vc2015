@@ -21,27 +21,27 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\qrng\halton.c">
+    <ClCompile Include="..\..\src\qrng\halton.c">
       <Filter>qrng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\qrng\inline.c">
+    <ClCompile Include="..\..\src\qrng\inline.c">
       <Filter>qrng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\qrng\niederreiter-2.c">
+    <ClCompile Include="..\..\src\qrng\niederreiter-2.c">
       <Filter>qrng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\qrng\qrng.c">
+    <ClCompile Include="..\..\src\qrng\qrng.c">
       <Filter>qrng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\qrng\reversehalton.c">
+    <ClCompile Include="..\..\src\qrng\reversehalton.c">
       <Filter>qrng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\qrng\sobol.c">
+    <ClCompile Include="..\..\src\qrng\sobol.c">
       <Filter>qrng</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\qrng\gsl_qrng.h">
+    <ClInclude Include="..\..\src\qrng\gsl_qrng.h">
       <Filter>qrng</Filter>
     </ClInclude>
   </ItemGroup>

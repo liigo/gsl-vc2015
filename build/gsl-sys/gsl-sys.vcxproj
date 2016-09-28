@@ -135,35 +135,35 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\err\error.c" />
-    <ClCompile Include="..\..\err\message.c" />
-    <ClCompile Include="..\..\err\stream.c" />
-    <ClCompile Include="..\..\err\strerror.c" />
-    <ClCompile Include="..\..\ieee-utils\endian.c" />
-    <ClCompile Include="..\..\ieee-utils\env.c" />
-    <ClCompile Include="..\..\ieee-utils\fp.c" />
-    <ClCompile Include="..\..\ieee-utils\make_rep.c" />
-    <ClCompile Include="..\..\ieee-utils\print.c" />
-    <ClCompile Include="..\..\ieee-utils\read.c" />
-    <ClCompile Include="..\..\ieee-utils\standardize.c" />
-    <ClCompile Include="..\..\sys\coerce.c" />
-    <ClCompile Include="..\..\sys\expm1.c" />
-    <ClCompile Include="..\..\sys\fcmp.c" />
-    <ClCompile Include="..\..\sys\fdiv.c" />
-    <ClCompile Include="..\..\sys\hypot.c" />
-    <ClCompile Include="..\..\sys\infnan.c" />
-    <ClCompile Include="..\..\sys\invhyp.c" />
-    <ClCompile Include="..\..\sys\ldfrexp.c" />
-    <ClCompile Include="..\..\sys\log1p.c" />
-    <ClCompile Include="..\..\sys\minmax.c" />
-    <ClCompile Include="..\..\sys\pow_int.c" />
-    <ClCompile Include="..\..\sys\prec.c" />
+    <ClCompile Include="..\..\src\err\error.c" />
+    <ClCompile Include="..\..\src\err\message.c" />
+    <ClCompile Include="..\..\src\err\stream.c" />
+    <ClCompile Include="..\..\src\err\strerror.c" />
+    <ClCompile Include="..\..\src\ieee-utils\endian.c" />
+    <ClCompile Include="..\..\src\ieee-utils\env.c" />
+    <ClCompile Include="..\..\src\ieee-utils\fp.c" />
+    <ClCompile Include="..\..\src\ieee-utils\make_rep.c" />
+    <ClCompile Include="..\..\src\ieee-utils\print.c" />
+    <ClCompile Include="..\..\src\ieee-utils\read.c" />
+    <ClCompile Include="..\..\src\ieee-utils\standardize.c" />
+    <ClCompile Include="..\..\src\sys\coerce.c" />
+    <ClCompile Include="..\..\src\sys\expm1.c" />
+    <ClCompile Include="..\..\src\sys\fcmp.c" />
+    <ClCompile Include="..\..\src\sys\fdiv.c" />
+    <ClCompile Include="..\..\src\sys\hypot.c" />
+    <ClCompile Include="..\..\src\sys\infnan.c" />
+    <ClCompile Include="..\..\src\sys\invhyp.c" />
+    <ClCompile Include="..\..\src\sys\ldfrexp.c" />
+    <ClCompile Include="..\..\src\sys\log1p.c" />
+    <ClCompile Include="..\..\src\sys\minmax.c" />
+    <ClCompile Include="..\..\src\sys\pow_int.c" />
+    <ClCompile Include="..\..\src\sys\prec.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\err\gsl_errno.h" />
-    <ClInclude Include="..\..\err\gsl_message.h" />
-    <ClInclude Include="..\..\ieee-utils\gsl_ieee_utils.h" />
-    <ClInclude Include="..\..\sys\gsl_sys.h" />
+    <ClInclude Include="..\..\src\err\gsl_errno.h" />
+    <ClInclude Include="..\..\src\err\gsl_message.h" />
+    <ClInclude Include="..\..\src\ieee-utils\gsl_ieee_utils.h" />
+    <ClInclude Include="..\..\src\sys\gsl_sys.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

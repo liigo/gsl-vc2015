@@ -135,21 +135,21 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\multimin\conjugate_fr.c" />
-    <ClCompile Include="..\..\multimin\conjugate_pr.c" />
-    <ClCompile Include="..\..\multimin\convergence.c" />
-    <ClCompile Include="..\..\multimin\diff.c" />
-    <ClCompile Include="..\..\multimin\fdfminimizer.c" />
-    <ClCompile Include="..\..\multimin\fminimizer.c" />
-    <ClCompile Include="..\..\multimin\linear_minimize.c" />
-    <ClCompile Include="..\..\multimin\simplex.c" />
-    <ClCompile Include="..\..\multimin\simplex2.c" />
-    <ClCompile Include="..\..\multimin\steepest_descent.c" />
-    <ClCompile Include="..\..\multimin\vector_bfgs.c" />
-    <ClCompile Include="..\..\multimin\vector_bfgs2.c" />
+    <ClCompile Include="..\..\src\multimin\conjugate_fr.c" />
+    <ClCompile Include="..\..\src\multimin\conjugate_pr.c" />
+    <ClCompile Include="..\..\src\multimin\convergence.c" />
+    <ClCompile Include="..\..\src\multimin\diff.c" />
+    <ClCompile Include="..\..\src\multimin\fdfminimizer.c" />
+    <ClCompile Include="..\..\src\multimin\fminimizer.c" />
+    <ClCompile Include="..\..\src\multimin\linear_minimize.c" />
+    <ClCompile Include="..\..\src\multimin\simplex.c" />
+    <ClCompile Include="..\..\src\multimin\simplex2.c" />
+    <ClCompile Include="..\..\src\multimin\steepest_descent.c" />
+    <ClCompile Include="..\..\src\multimin\vector_bfgs.c" />
+    <ClCompile Include="..\..\src\multimin\vector_bfgs2.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\multimin\gsl_multimin.h" />
+    <ClInclude Include="..\..\src\multimin\gsl_multimin.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

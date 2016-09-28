@@ -135,16 +135,16 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\min\bracketing.c" />
-    <ClCompile Include="..\..\min\brent.c" />
-    <ClCompile Include="..\..\min\convergence.c" />
-    <ClCompile Include="..\..\min\fsolver.c" />
-    <ClCompile Include="..\..\min\golden.c" />
-    <ClCompile Include="..\..\min\quad_golden.c" />
+    <ClCompile Include="..\..\src\min\bracketing.c" />
+    <ClCompile Include="..\..\src\min\brent.c" />
+    <ClCompile Include="..\..\src\min\convergence.c" />
+    <ClCompile Include="..\..\src\min\fsolver.c" />
+    <ClCompile Include="..\..\src\min\golden.c" />
+    <ClCompile Include="..\..\src\min\quad_golden.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\min\gsl_min.h" />
-    <ClInclude Include="..\..\min\min.h" />
+    <ClInclude Include="..\..\src\min\gsl_min.h" />
+    <ClInclude Include="..\..\src\min\min.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -135,18 +135,18 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\poly\dd.c" />
-    <ClCompile Include="..\..\poly\deriv.c" />
-    <ClCompile Include="..\..\poly\eval.c" />
-    <ClCompile Include="..\..\poly\solve_cubic.c" />
-    <ClCompile Include="..\..\poly\solve_quadratic.c" />
-    <ClCompile Include="..\..\poly\zsolve.c" />
-    <ClCompile Include="..\..\poly\zsolve_cubic.c" />
-    <ClCompile Include="..\..\poly\zsolve_init.c" />
-    <ClCompile Include="..\..\poly\zsolve_quadratic.c" />
+    <ClCompile Include="..\..\src\poly\dd.c" />
+    <ClCompile Include="..\..\src\poly\deriv.c" />
+    <ClCompile Include="..\..\src\poly\eval.c" />
+    <ClCompile Include="..\..\src\poly\solve_cubic.c" />
+    <ClCompile Include="..\..\src\poly\solve_quadratic.c" />
+    <ClCompile Include="..\..\src\poly\zsolve.c" />
+    <ClCompile Include="..\..\src\poly\zsolve_cubic.c" />
+    <ClCompile Include="..\..\src\poly\zsolve_init.c" />
+    <ClCompile Include="..\..\src\poly\zsolve_quadratic.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\poly\gsl_poly.h" />
+    <ClInclude Include="..\..\src\poly\gsl_poly.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

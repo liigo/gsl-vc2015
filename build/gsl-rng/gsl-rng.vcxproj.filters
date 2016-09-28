@@ -21,141 +21,141 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\rng\borosh13.c">
+    <ClCompile Include="..\..\src\rng\borosh13.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\cmrg.c">
+    <ClCompile Include="..\..\src\rng\cmrg.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\coveyou.c">
+    <ClCompile Include="..\..\src\rng\coveyou.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\default.c">
+    <ClCompile Include="..\..\src\rng\default.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\file.c">
+    <ClCompile Include="..\..\src\rng\file.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\fishman18.c">
+    <ClCompile Include="..\..\src\rng\fishman18.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\fishman20.c">
+    <ClCompile Include="..\..\src\rng\fishman20.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\fishman2x.c">
+    <ClCompile Include="..\..\src\rng\fishman2x.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\gfsr4.c">
+    <ClCompile Include="..\..\src\rng\gfsr4.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\inline.c">
+    <ClCompile Include="..\..\src\rng\inline.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\knuthran.c">
+    <ClCompile Include="..\..\src\rng\knuthran.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\knuthran2.c">
+    <ClCompile Include="..\..\src\rng\knuthran2.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\knuthran2002.c">
+    <ClCompile Include="..\..\src\rng\knuthran2002.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\lecuyer21.c">
+    <ClCompile Include="..\..\src\rng\lecuyer21.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\minstd.c">
+    <ClCompile Include="..\..\src\rng\minstd.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\mrg.c">
+    <ClCompile Include="..\..\src\rng\mrg.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\mt.c">
+    <ClCompile Include="..\..\src\rng\mt.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\r250.c">
+    <ClCompile Include="..\..\src\rng\r250.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\ran0.c">
+    <ClCompile Include="..\..\src\rng\ran0.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\ran1.c">
+    <ClCompile Include="..\..\src\rng\ran1.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\ran2.c">
+    <ClCompile Include="..\..\src\rng\ran2.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\ran3.c">
+    <ClCompile Include="..\..\src\rng\ran3.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\rand.c">
+    <ClCompile Include="..\..\src\rng\rand.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\rand48.c">
+    <ClCompile Include="..\..\src\rng\rand48.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\random.c">
+    <ClCompile Include="..\..\src\rng\random.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\randu.c">
+    <ClCompile Include="..\..\src\rng\randu.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\ranf.c">
+    <ClCompile Include="..\..\src\rng\ranf.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\ranlux.c">
+    <ClCompile Include="..\..\src\rng\ranlux.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\ranlxd.c">
+    <ClCompile Include="..\..\src\rng\ranlxd.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\ranlxs.c">
+    <ClCompile Include="..\..\src\rng\ranlxs.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\ranmar.c">
+    <ClCompile Include="..\..\src\rng\ranmar.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\rng.c">
+    <ClCompile Include="..\..\src\rng\rng.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\schrage.c">
+    <ClCompile Include="..\..\src\rng\schrage.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\slatec.c">
+    <ClCompile Include="..\..\src\rng\slatec.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\taus.c">
+    <ClCompile Include="..\..\src\rng\taus.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\taus113.c">
+    <ClCompile Include="..\..\src\rng\taus113.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\transputer.c">
+    <ClCompile Include="..\..\src\rng\transputer.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\tt.c">
+    <ClCompile Include="..\..\src\rng\tt.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\types.c">
+    <ClCompile Include="..\..\src\rng\types.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\uni.c">
+    <ClCompile Include="..\..\src\rng\uni.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\uni32.c">
+    <ClCompile Include="..\..\src\rng\uni32.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\vax.c">
+    <ClCompile Include="..\..\src\rng\vax.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\waterman14.c">
+    <ClCompile Include="..\..\src\rng\waterman14.c">
       <Filter>rng</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\rng\zuf.c">
+    <ClCompile Include="..\..\src\rng\zuf.c">
       <Filter>rng</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\rng\gsl_rng.h">
+    <ClInclude Include="..\..\src\rng\gsl_rng.h">
       <Filter>rng</Filter>
     </ClInclude>
   </ItemGroup>

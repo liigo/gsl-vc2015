@@ -135,35 +135,35 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\histogram\add.c" />
-    <ClCompile Include="..\..\histogram\add2d.c" />
-    <ClCompile Include="..\..\histogram\calloc_range.c" />
-    <ClCompile Include="..\..\histogram\calloc_range2d.c" />
-    <ClCompile Include="..\..\histogram\copy.c" />
-    <ClCompile Include="..\..\histogram\copy2d.c" />
-    <ClCompile Include="..\..\histogram\file.c" />
-    <ClCompile Include="..\..\histogram\file2d.c" />
-    <ClCompile Include="..\..\histogram\get.c" />
-    <ClCompile Include="..\..\histogram\get2d.c" />
-    <ClCompile Include="..\..\histogram\init.c" />
-    <ClCompile Include="..\..\histogram\init2d.c" />
-    <ClCompile Include="..\..\histogram\maxval.c" />
-    <ClCompile Include="..\..\histogram\maxval2d.c" />
-    <ClCompile Include="..\..\histogram\oper.c" />
-    <ClCompile Include="..\..\histogram\oper2d.c" />
-    <ClCompile Include="..\..\histogram\params.c" />
-    <ClCompile Include="..\..\histogram\params2d.c" />
-    <ClCompile Include="..\..\histogram\pdf.c" />
-    <ClCompile Include="..\..\histogram\pdf2d.c" />
-    <ClCompile Include="..\..\histogram\reset.c" />
-    <ClCompile Include="..\..\histogram\reset2d.c" />
-    <ClCompile Include="..\..\histogram\stat.c" />
-    <ClCompile Include="..\..\histogram\stat2d.c" />
-    <ClCompile Include="..\..\histogram\urand.c" />
+    <ClCompile Include="..\..\src\histogram\add.c" />
+    <ClCompile Include="..\..\src\histogram\add2d.c" />
+    <ClCompile Include="..\..\src\histogram\calloc_range.c" />
+    <ClCompile Include="..\..\src\histogram\calloc_range2d.c" />
+    <ClCompile Include="..\..\src\histogram\copy.c" />
+    <ClCompile Include="..\..\src\histogram\copy2d.c" />
+    <ClCompile Include="..\..\src\histogram\file.c" />
+    <ClCompile Include="..\..\src\histogram\file2d.c" />
+    <ClCompile Include="..\..\src\histogram\get.c" />
+    <ClCompile Include="..\..\src\histogram\get2d.c" />
+    <ClCompile Include="..\..\src\histogram\init.c" />
+    <ClCompile Include="..\..\src\histogram\init2d.c" />
+    <ClCompile Include="..\..\src\histogram\maxval.c" />
+    <ClCompile Include="..\..\src\histogram\maxval2d.c" />
+    <ClCompile Include="..\..\src\histogram\oper.c" />
+    <ClCompile Include="..\..\src\histogram\oper2d.c" />
+    <ClCompile Include="..\..\src\histogram\params.c" />
+    <ClCompile Include="..\..\src\histogram\params2d.c" />
+    <ClCompile Include="..\..\src\histogram\pdf.c" />
+    <ClCompile Include="..\..\src\histogram\pdf2d.c" />
+    <ClCompile Include="..\..\src\histogram\reset.c" />
+    <ClCompile Include="..\..\src\histogram\reset2d.c" />
+    <ClCompile Include="..\..\src\histogram\stat.c" />
+    <ClCompile Include="..\..\src\histogram\stat2d.c" />
+    <ClCompile Include="..\..\src\histogram\urand.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\histogram\gsl_histogram.h" />
-    <ClInclude Include="..\..\histogram\gsl_histogram2d.h" />
+    <ClInclude Include="..\..\src\histogram\gsl_histogram.h" />
+    <ClInclude Include="..\..\src\histogram\gsl_histogram2d.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

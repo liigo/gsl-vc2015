@@ -21,60 +21,60 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\ode-initval\bsimp.c">
+    <ClCompile Include="..\..\src\ode-initval\bsimp.c">
       <Filter>ode-initval</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ode-initval\control.c">
+    <ClCompile Include="..\..\src\ode-initval\control.c">
       <Filter>ode-initval</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ode-initval\cscal.c">
+    <ClCompile Include="..\..\src\ode-initval\cscal.c">
       <Filter>ode-initval</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ode-initval\cstd.c">
+    <ClCompile Include="..\..\src\ode-initval\cstd.c">
       <Filter>ode-initval</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ode-initval\evolve.c">
+    <ClCompile Include="..\..\src\ode-initval\evolve.c">
       <Filter>ode-initval</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ode-initval\gear1.c">
+    <ClCompile Include="..\..\src\ode-initval\gear1.c">
       <Filter>ode-initval</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ode-initval\gear2.c">
+    <ClCompile Include="..\..\src\ode-initval\gear2.c">
       <Filter>ode-initval</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ode-initval\rk2.c">
+    <ClCompile Include="..\..\src\ode-initval\rk2.c">
       <Filter>ode-initval</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ode-initval\rk2imp.c">
+    <ClCompile Include="..\..\src\ode-initval\rk2imp.c">
       <Filter>ode-initval</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ode-initval\rk2simp.c">
+    <ClCompile Include="..\..\src\ode-initval\rk2simp.c">
       <Filter>ode-initval</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ode-initval\rk4.c">
+    <ClCompile Include="..\..\src\ode-initval\rk4.c">
       <Filter>ode-initval</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ode-initval\rk4imp.c">
+    <ClCompile Include="..\..\src\ode-initval\rk4imp.c">
       <Filter>ode-initval</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ode-initval\rk8pd.c">
+    <ClCompile Include="..\..\src\ode-initval\rk8pd.c">
       <Filter>ode-initval</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ode-initval\rkck.c">
+    <ClCompile Include="..\..\src\ode-initval\rkck.c">
       <Filter>ode-initval</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ode-initval\rkf45.c">
+    <ClCompile Include="..\..\src\ode-initval\rkf45.c">
       <Filter>ode-initval</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ode-initval\step.c">
+    <ClCompile Include="..\..\src\ode-initval\step.c">
       <Filter>ode-initval</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\ode-initval\gsl_odeiv.h">
+    <ClInclude Include="..\..\src\ode-initval\gsl_odeiv.h">
       <Filter>ode-initval</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ode-initval\odeiv_util.h">
+    <ClInclude Include="..\..\src\ode-initval\odeiv_util.h">
       <Filter>ode-initval</Filter>
     </ClInclude>
   </ItemGroup>

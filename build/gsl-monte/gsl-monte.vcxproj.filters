@@ -21,13 +21,13 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\monte\miser.c">
+    <ClCompile Include="..\..\src\monte\miser.c">
       <Filter>monte</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\monte\plain.c">
+    <ClCompile Include="..\..\src\monte\plain.c">
       <Filter>monte</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\monte\vegas.c">
+    <ClCompile Include="..\..\src\monte\vegas.c">
       <Filter>monte</Filter>
     </ClCompile>
   </ItemGroup>

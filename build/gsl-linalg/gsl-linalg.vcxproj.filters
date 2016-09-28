@@ -21,81 +21,81 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\linalg\balance.c">
+    <ClCompile Include="..\..\src\linalg\balance.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\balancemat.c">
+    <ClCompile Include="..\..\src\linalg\balancemat.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\bidiag.c">
+    <ClCompile Include="..\..\src\linalg\bidiag.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\cholesky.c">
+    <ClCompile Include="..\..\src\linalg\cholesky.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\choleskyc.c">
+    <ClCompile Include="..\..\src\linalg\choleskyc.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\exponential.c">
+    <ClCompile Include="..\..\src\linalg\exponential.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\hermtd.c">
+    <ClCompile Include="..\..\src\linalg\hermtd.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\hessenberg.c">
+    <ClCompile Include="..\..\src\linalg\hessenberg.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\hesstri.c">
+    <ClCompile Include="..\..\src\linalg\hesstri.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\hh.c">
+    <ClCompile Include="..\..\src\linalg\hh.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\householder.c">
+    <ClCompile Include="..\..\src\linalg\householder.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\householdercomplex.c">
+    <ClCompile Include="..\..\src\linalg\householdercomplex.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\inline.c">
+    <ClCompile Include="..\..\src\linalg\inline.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\lq.c">
+    <ClCompile Include="..\..\src\linalg\lq.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\lu.c">
+    <ClCompile Include="..\..\src\linalg\lu.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\luc.c">
+    <ClCompile Include="..\..\src\linalg\luc.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\multiply.c">
+    <ClCompile Include="..\..\src\linalg\multiply.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\ptlq.c">
+    <ClCompile Include="..\..\src\linalg\ptlq.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\qr.c">
+    <ClCompile Include="..\..\src\linalg\qr.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\qrpt.c">
+    <ClCompile Include="..\..\src\linalg\qrpt.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\svd.c">
+    <ClCompile Include="..\..\src\linalg\svd.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\symmtd.c">
+    <ClCompile Include="..\..\src\linalg\symmtd.c">
       <Filter>linalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\linalg\tridiag.c">
+    <ClCompile Include="..\..\src\linalg\tridiag.c">
       <Filter>linalg</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\linalg\gsl_linalg.h">
+    <ClInclude Include="..\..\src\linalg\gsl_linalg.h">
       <Filter>linalg</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\linalg\tridiag.h">
+    <ClInclude Include="..\..\src\linalg\tridiag.h">
       <Filter>linalg</Filter>
     </ClInclude>
   </ItemGroup>

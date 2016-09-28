@@ -135,33 +135,33 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\linalg\balance.c" />
-    <ClCompile Include="..\..\linalg\balancemat.c" />
-    <ClCompile Include="..\..\linalg\bidiag.c" />
-    <ClCompile Include="..\..\linalg\cholesky.c" />
-    <ClCompile Include="..\..\linalg\choleskyc.c" />
-    <ClCompile Include="..\..\linalg\exponential.c" />
-    <ClCompile Include="..\..\linalg\hermtd.c" />
-    <ClCompile Include="..\..\linalg\hessenberg.c" />
-    <ClCompile Include="..\..\linalg\hesstri.c" />
-    <ClCompile Include="..\..\linalg\hh.c" />
-    <ClCompile Include="..\..\linalg\householder.c" />
-    <ClCompile Include="..\..\linalg\householdercomplex.c" />
-    <ClCompile Include="..\..\linalg\inline.c" />
-    <ClCompile Include="..\..\linalg\lq.c" />
-    <ClCompile Include="..\..\linalg\lu.c" />
-    <ClCompile Include="..\..\linalg\luc.c" />
-    <ClCompile Include="..\..\linalg\multiply.c" />
-    <ClCompile Include="..\..\linalg\ptlq.c" />
-    <ClCompile Include="..\..\linalg\qr.c" />
-    <ClCompile Include="..\..\linalg\qrpt.c" />
-    <ClCompile Include="..\..\linalg\svd.c" />
-    <ClCompile Include="..\..\linalg\symmtd.c" />
-    <ClCompile Include="..\..\linalg\tridiag.c" />
+    <ClCompile Include="..\..\src\linalg\balance.c" />
+    <ClCompile Include="..\..\src\linalg\balancemat.c" />
+    <ClCompile Include="..\..\src\linalg\bidiag.c" />
+    <ClCompile Include="..\..\src\linalg\cholesky.c" />
+    <ClCompile Include="..\..\src\linalg\choleskyc.c" />
+    <ClCompile Include="..\..\src\linalg\exponential.c" />
+    <ClCompile Include="..\..\src\linalg\hermtd.c" />
+    <ClCompile Include="..\..\src\linalg\hessenberg.c" />
+    <ClCompile Include="..\..\src\linalg\hesstri.c" />
+    <ClCompile Include="..\..\src\linalg\hh.c" />
+    <ClCompile Include="..\..\src\linalg\householder.c" />
+    <ClCompile Include="..\..\src\linalg\householdercomplex.c" />
+    <ClCompile Include="..\..\src\linalg\inline.c" />
+    <ClCompile Include="..\..\src\linalg\lq.c" />
+    <ClCompile Include="..\..\src\linalg\lu.c" />
+    <ClCompile Include="..\..\src\linalg\luc.c" />
+    <ClCompile Include="..\..\src\linalg\multiply.c" />
+    <ClCompile Include="..\..\src\linalg\ptlq.c" />
+    <ClCompile Include="..\..\src\linalg\qr.c" />
+    <ClCompile Include="..\..\src\linalg\qrpt.c" />
+    <ClCompile Include="..\..\src\linalg\svd.c" />
+    <ClCompile Include="..\..\src\linalg\symmtd.c" />
+    <ClCompile Include="..\..\src\linalg\tridiag.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\linalg\gsl_linalg.h" />
-    <ClInclude Include="..\..\linalg\tridiag.h" />
+    <ClInclude Include="..\..\src\linalg\gsl_linalg.h" />
+    <ClInclude Include="..\..\src\linalg\tridiag.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -135,9 +135,9 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\monte\miser.c" />
-    <ClCompile Include="..\..\monte\plain.c" />
-    <ClCompile Include="..\..\monte\vegas.c" />
+    <ClCompile Include="..\..\src\monte\miser.c" />
+    <ClCompile Include="..\..\src\monte\plain.c" />
+    <ClCompile Include="..\..\src\monte\vegas.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

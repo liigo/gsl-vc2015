@@ -21,33 +21,33 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\fft\dft.c">
+    <ClCompile Include="..\..\src\fft\dft.c">
       <Filter>fft</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\fft\factorize.c">
+    <ClCompile Include="..\..\src\fft\factorize.c">
       <Filter>fft</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\fft\fft.c">
+    <ClCompile Include="..\..\src\fft\fft.c">
       <Filter>fft</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\fft\signals.c">
+    <ClCompile Include="..\..\src\fft\signals.c">
       <Filter>fft</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\fft\urand.c">
+    <ClCompile Include="..\..\src\fft\urand.c">
       <Filter>fft</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\fft\compare.h">
+    <ClInclude Include="..\..\src\fft\compare.h">
       <Filter>fft</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\fft\complex_internal.h">
+    <ClInclude Include="..\..\src\fft\complex_internal.h">
       <Filter>fft</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\fft\factorize.h">
+    <ClInclude Include="..\..\src\fft\factorize.h">
       <Filter>fft</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\fft\signals.h">
+    <ClInclude Include="..\..\src\fft\signals.h">
       <Filter>fft</Filter>
     </ClInclude>
   </ItemGroup>

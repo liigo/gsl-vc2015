@@ -135,12 +135,12 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\sort\sort.c" />
-    <ClCompile Include="..\..\sort\sortind.c" />
-    <ClCompile Include="..\..\sort\sortvec.c" />
-    <ClCompile Include="..\..\sort\sortvecind.c" />
-    <ClCompile Include="..\..\sort\subset.c" />
-    <ClCompile Include="..\..\sort\subsetind.c" />
+    <ClCompile Include="..\..\src\sort\sort.c" />
+    <ClCompile Include="..\..\src\sort\sortind.c" />
+    <ClCompile Include="..\..\src\sort\sortvec.c" />
+    <ClCompile Include="..\..\src\sort\sortvecind.c" />
+    <ClCompile Include="..\..\src\sort\subset.c" />
+    <ClCompile Include="..\..\src\sort\subsetind.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

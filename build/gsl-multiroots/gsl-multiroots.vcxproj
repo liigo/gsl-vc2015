@@ -135,19 +135,19 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\multiroots\broyden.c" />
-    <ClCompile Include="..\..\multiroots\convergence.c" />
-    <ClCompile Include="..\..\multiroots\dnewton.c" />
-    <ClCompile Include="..\..\multiroots\fdfsolver.c" />
-    <ClCompile Include="..\..\multiroots\fdjac.c" />
-    <ClCompile Include="..\..\multiroots\fsolver.c" />
-    <ClCompile Include="..\..\multiroots\gnewton.c" />
-    <ClCompile Include="..\..\multiroots\hybrid.c" />
-    <ClCompile Include="..\..\multiroots\hybridj.c" />
-    <ClCompile Include="..\..\multiroots\newton.c" />
+    <ClCompile Include="..\..\src\multiroots\broyden.c" />
+    <ClCompile Include="..\..\src\multiroots\convergence.c" />
+    <ClCompile Include="..\..\src\multiroots\dnewton.c" />
+    <ClCompile Include="..\..\src\multiroots\fdfsolver.c" />
+    <ClCompile Include="..\..\src\multiroots\fdjac.c" />
+    <ClCompile Include="..\..\src\multiroots\fsolver.c" />
+    <ClCompile Include="..\..\src\multiroots\gnewton.c" />
+    <ClCompile Include="..\..\src\multiroots\hybrid.c" />
+    <ClCompile Include="..\..\src\multiroots\hybridj.c" />
+    <ClCompile Include="..\..\src\multiroots\newton.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\multiroots\gsl_multiroots.h" />
+    <ClInclude Include="..\..\src\multiroots\gsl_multiroots.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -135,11 +135,11 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\splinalg\gmres.c" />
-    <ClCompile Include="..\..\splinalg\itersolve.c" />
+    <ClCompile Include="..\..\src\splinalg\gmres.c" />
+    <ClCompile Include="..\..\src\splinalg\itersolve.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\splinalg\gsl_splinalg.h" />
+    <ClInclude Include="..\..\src\splinalg\gsl_splinalg.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

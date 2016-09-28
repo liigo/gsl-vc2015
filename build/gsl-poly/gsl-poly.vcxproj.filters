@@ -21,36 +21,36 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\poly\dd.c">
+    <ClCompile Include="..\..\src\poly\dd.c">
       <Filter>poly</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\poly\deriv.c">
+    <ClCompile Include="..\..\src\poly\deriv.c">
       <Filter>poly</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\poly\eval.c">
+    <ClCompile Include="..\..\src\poly\eval.c">
       <Filter>poly</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\poly\solve_cubic.c">
+    <ClCompile Include="..\..\src\poly\solve_cubic.c">
       <Filter>poly</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\poly\solve_quadratic.c">
+    <ClCompile Include="..\..\src\poly\solve_quadratic.c">
       <Filter>poly</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\poly\zsolve.c">
+    <ClCompile Include="..\..\src\poly\zsolve.c">
       <Filter>poly</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\poly\zsolve_cubic.c">
+    <ClCompile Include="..\..\src\poly\zsolve_cubic.c">
       <Filter>poly</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\poly\zsolve_init.c">
+    <ClCompile Include="..\..\src\poly\zsolve_init.c">
       <Filter>poly</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\poly\zsolve_quadratic.c">
+    <ClCompile Include="..\..\src\poly\zsolve_quadratic.c">
       <Filter>poly</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\poly\gsl_poly.h">
+    <ClInclude Include="..\..\src\poly\gsl_poly.h">
       <Filter>poly</Filter>
     </ClInclude>
   </ItemGroup>

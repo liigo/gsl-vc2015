@@ -21,39 +21,39 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\roots\bisection.c">
+    <ClCompile Include="..\..\src\roots\bisection.c">
       <Filter>roots</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\roots\brent.c">
+    <ClCompile Include="..\..\src\roots\brent.c">
       <Filter>roots</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\roots\convergence.c">
+    <ClCompile Include="..\..\src\roots\convergence.c">
       <Filter>roots</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\roots\falsepos.c">
+    <ClCompile Include="..\..\src\roots\falsepos.c">
       <Filter>roots</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\roots\fdfsolver.c">
+    <ClCompile Include="..\..\src\roots\fdfsolver.c">
       <Filter>roots</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\roots\fsolver.c">
+    <ClCompile Include="..\..\src\roots\fsolver.c">
       <Filter>roots</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\roots\newton.c">
+    <ClCompile Include="..\..\src\roots\newton.c">
       <Filter>roots</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\roots\secant.c">
+    <ClCompile Include="..\..\src\roots\secant.c">
       <Filter>roots</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\roots\steffenson.c">
+    <ClCompile Include="..\..\src\roots\steffenson.c">
       <Filter>roots</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\roots\gsl_roots.h">
+    <ClInclude Include="..\..\src\roots\gsl_roots.h">
       <Filter>roots</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\roots\roots.h">
+    <ClInclude Include="..\..\src\roots\roots.h">
       <Filter>roots</Filter>
     </ClInclude>
   </ItemGroup>

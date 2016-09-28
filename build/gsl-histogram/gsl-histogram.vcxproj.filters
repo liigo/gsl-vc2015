@@ -21,87 +21,87 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\histogram\add.c">
+    <ClCompile Include="..\..\src\histogram\add.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\add2d.c">
+    <ClCompile Include="..\..\src\histogram\add2d.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\calloc_range.c">
+    <ClCompile Include="..\..\src\histogram\calloc_range.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\calloc_range2d.c">
+    <ClCompile Include="..\..\src\histogram\calloc_range2d.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\copy.c">
+    <ClCompile Include="..\..\src\histogram\copy.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\copy2d.c">
+    <ClCompile Include="..\..\src\histogram\copy2d.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\file.c">
+    <ClCompile Include="..\..\src\histogram\file.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\file2d.c">
+    <ClCompile Include="..\..\src\histogram\file2d.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\get.c">
+    <ClCompile Include="..\..\src\histogram\get.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\get2d.c">
+    <ClCompile Include="..\..\src\histogram\get2d.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\init.c">
+    <ClCompile Include="..\..\src\histogram\init.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\init2d.c">
+    <ClCompile Include="..\..\src\histogram\init2d.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\maxval.c">
+    <ClCompile Include="..\..\src\histogram\maxval.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\maxval2d.c">
+    <ClCompile Include="..\..\src\histogram\maxval2d.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\oper.c">
+    <ClCompile Include="..\..\src\histogram\oper.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\oper2d.c">
+    <ClCompile Include="..\..\src\histogram\oper2d.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\params.c">
+    <ClCompile Include="..\..\src\histogram\params.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\params2d.c">
+    <ClCompile Include="..\..\src\histogram\params2d.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\pdf.c">
+    <ClCompile Include="..\..\src\histogram\pdf.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\pdf2d.c">
+    <ClCompile Include="..\..\src\histogram\pdf2d.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\reset.c">
+    <ClCompile Include="..\..\src\histogram\reset.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\reset2d.c">
+    <ClCompile Include="..\..\src\histogram\reset2d.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\stat.c">
+    <ClCompile Include="..\..\src\histogram\stat.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\stat2d.c">
+    <ClCompile Include="..\..\src\histogram\stat2d.c">
       <Filter>histogram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\histogram\urand.c">
+    <ClCompile Include="..\..\src\histogram\urand.c">
       <Filter>histogram</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\histogram\gsl_histogram.h">
+    <ClInclude Include="..\..\src\histogram\gsl_histogram.h">
       <Filter>histogram</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\histogram\gsl_histogram2d.h">
+    <ClInclude Include="..\..\src\histogram\gsl_histogram2d.h">
       <Filter>histogram</Filter>
     </ClInclude>
   </ItemGroup>

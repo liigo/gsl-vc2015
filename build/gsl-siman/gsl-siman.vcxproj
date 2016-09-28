@@ -135,8 +135,8 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\siman\siman.c" />
-    <ClCompile Include="..\..\siman\siman_tsp.c" />
+    <ClCompile Include="..\..\src\siman\siman.c" />
+    <ClCompile Include="..\..\src\siman\siman_tsp.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

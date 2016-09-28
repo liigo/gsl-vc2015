@@ -21,21 +21,21 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\combination\combination.c">
+    <ClCompile Include="..\..\src\combination\combination.c">
       <Filter>combination</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\combination\file.c">
+    <ClCompile Include="..\..\src\combination\file.c">
       <Filter>combination</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\combination\init.c">
+    <ClCompile Include="..\..\src\combination\init.c">
       <Filter>combination</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\combination\inline.c">
+    <ClCompile Include="..\..\src\combination\inline.c">
       <Filter>combination</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\combination\gsl_combination.h">
+    <ClInclude Include="..\..\src\combination\gsl_combination.h">
       <Filter>combination</Filter>
     </ClInclude>
   </ItemGroup>

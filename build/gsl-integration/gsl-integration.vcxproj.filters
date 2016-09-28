@@ -21,81 +21,81 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\integration\cquad.c">
+    <ClCompile Include="..\..\src\integration\cquad.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\cquad_const.c">
+    <ClCompile Include="..\..\src\integration\cquad_const.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\err.c">
+    <ClCompile Include="..\..\src\integration\err.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\glfixed.c">
+    <ClCompile Include="..\..\src\integration\glfixed.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\qag.c">
+    <ClCompile Include="..\..\src\integration\qag.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\qagp.c">
+    <ClCompile Include="..\..\src\integration\qagp.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\qags.c">
+    <ClCompile Include="..\..\src\integration\qags.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\qawc.c">
+    <ClCompile Include="..\..\src\integration\qawc.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\qawf.c">
+    <ClCompile Include="..\..\src\integration\qawf.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\qawo.c">
+    <ClCompile Include="..\..\src\integration\qawo.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\qaws.c">
+    <ClCompile Include="..\..\src\integration\qaws.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\qcheb.c">
+    <ClCompile Include="..\..\src\integration\qcheb.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\qk.c">
+    <ClCompile Include="..\..\src\integration\qk.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\qk15.c">
+    <ClCompile Include="..\..\src\integration\qk15.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\qk21.c">
+    <ClCompile Include="..\..\src\integration\qk21.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\qk31.c">
+    <ClCompile Include="..\..\src\integration\qk31.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\qk41.c">
+    <ClCompile Include="..\..\src\integration\qk41.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\qk51.c">
+    <ClCompile Include="..\..\src\integration\qk51.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\qk61.c">
+    <ClCompile Include="..\..\src\integration\qk61.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\qmomo.c">
+    <ClCompile Include="..\..\src\integration\qmomo.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\qmomof.c">
+    <ClCompile Include="..\..\src\integration\qmomof.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\qng.c">
+    <ClCompile Include="..\..\src\integration\qng.c">
       <Filter>integration</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\integration\workspace.c">
+    <ClCompile Include="..\..\src\integration\workspace.c">
       <Filter>integration</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\integration\gsl_integration.h">
+    <ClInclude Include="..\..\src\integration\gsl_integration.h">
       <Filter>integration</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\integration\qng.h">
+    <ClInclude Include="..\..\src\integration\qng.h">
       <Filter>integration</Filter>
     </ClInclude>
   </ItemGroup>

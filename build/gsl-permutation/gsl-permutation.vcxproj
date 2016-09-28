@@ -135,15 +135,15 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\permutation\canonical.c" />
-    <ClCompile Include="..\..\permutation\file.c" />
-    <ClCompile Include="..\..\permutation\init.c" />
-    <ClCompile Include="..\..\permutation\inline.c" />
-    <ClCompile Include="..\..\permutation\permutation.c" />
-    <ClCompile Include="..\..\permutation\permute.c" />
+    <ClCompile Include="..\..\src\permutation\canonical.c" />
+    <ClCompile Include="..\..\src\permutation\file.c" />
+    <ClCompile Include="..\..\src\permutation\init.c" />
+    <ClCompile Include="..\..\src\permutation\inline.c" />
+    <ClCompile Include="..\..\src\permutation\permutation.c" />
+    <ClCompile Include="..\..\src\permutation\permute.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\permutation\gsl_permutation.h" />
+    <ClInclude Include="..\..\src\permutation\gsl_permutation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

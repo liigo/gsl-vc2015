@@ -135,25 +135,25 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\statistics\absdev.c" />
-    <ClCompile Include="..\..\statistics\covariance.c" />
-    <ClCompile Include="..\..\statistics\kurtosis.c" />
-    <ClCompile Include="..\..\statistics\lag1.c" />
-    <ClCompile Include="..\..\statistics\mean.c" />
-    <ClCompile Include="..\..\statistics\median.c" />
-    <ClCompile Include="..\..\statistics\minmax.c" />
-    <ClCompile Include="..\..\statistics\p_variance.c" />
-    <ClCompile Include="..\..\statistics\quantiles.c" />
-    <ClCompile Include="..\..\statistics\skew.c" />
-    <ClCompile Include="..\..\statistics\variance.c" />
-    <ClCompile Include="..\..\statistics\wabsdev.c" />
-    <ClCompile Include="..\..\statistics\wkurtosis.c" />
-    <ClCompile Include="..\..\statistics\wmean.c" />
-    <ClCompile Include="..\..\statistics\wskew.c" />
-    <ClCompile Include="..\..\statistics\wvariance.c" />
+    <ClCompile Include="..\..\src\statistics\absdev.c" />
+    <ClCompile Include="..\..\src\statistics\covariance.c" />
+    <ClCompile Include="..\..\src\statistics\kurtosis.c" />
+    <ClCompile Include="..\..\src\statistics\lag1.c" />
+    <ClCompile Include="..\..\src\statistics\mean.c" />
+    <ClCompile Include="..\..\src\statistics\median.c" />
+    <ClCompile Include="..\..\src\statistics\minmax.c" />
+    <ClCompile Include="..\..\src\statistics\p_variance.c" />
+    <ClCompile Include="..\..\src\statistics\quantiles.c" />
+    <ClCompile Include="..\..\src\statistics\skew.c" />
+    <ClCompile Include="..\..\src\statistics\variance.c" />
+    <ClCompile Include="..\..\src\statistics\wabsdev.c" />
+    <ClCompile Include="..\..\src\statistics\wkurtosis.c" />
+    <ClCompile Include="..\..\src\statistics\wmean.c" />
+    <ClCompile Include="..\..\src\statistics\wskew.c" />
+    <ClCompile Include="..\..\src\statistics\wvariance.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\statistics\gsl_statistics.h" />
+    <ClInclude Include="..\..\src\statistics\gsl_statistics.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

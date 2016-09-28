@@ -21,60 +21,60 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\multifit\convergence.c">
+    <ClCompile Include="..\..\src\multifit\convergence.c">
       <Filter>multifit</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multifit\covar.c">
+    <ClCompile Include="..\..\src\multifit\covar.c">
       <Filter>multifit</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multifit\fdfridge.c">
+    <ClCompile Include="..\..\src\multifit\fdfridge.c">
       <Filter>multifit</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multifit\fdfsolver.c">
+    <ClCompile Include="..\..\src\multifit\fdfsolver.c">
       <Filter>multifit</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multifit\fdjac.c">
+    <ClCompile Include="..\..\src\multifit\fdjac.c">
       <Filter>multifit</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multifit\fsolver.c">
+    <ClCompile Include="..\..\src\multifit\fsolver.c">
       <Filter>multifit</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multifit\gradient.c">
+    <ClCompile Include="..\..\src\multifit\gradient.c">
       <Filter>multifit</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multifit\linear_common.c">
+    <ClCompile Include="..\..\src\multifit\linear_common.c">
       <Filter>multifit</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multifit\lmder.c">
+    <ClCompile Include="..\..\src\multifit\lmder.c">
       <Filter>multifit</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multifit\lmniel.c">
+    <ClCompile Include="..\..\src\multifit\lmniel.c">
       <Filter>multifit</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multifit\multilinear.c">
+    <ClCompile Include="..\..\src\multifit\multilinear.c">
       <Filter>multifit</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multifit\multireg.c">
+    <ClCompile Include="..\..\src\multifit\multireg.c">
       <Filter>multifit</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multifit\multirobust.c">
+    <ClCompile Include="..\..\src\multifit\multirobust.c">
       <Filter>multifit</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multifit\multiwlinear.c">
+    <ClCompile Include="..\..\src\multifit\multiwlinear.c">
       <Filter>multifit</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multifit\robust_wfun.c">
+    <ClCompile Include="..\..\src\multifit\robust_wfun.c">
       <Filter>multifit</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\multifit\work.c">
+    <ClCompile Include="..\..\src\multifit\work.c">
       <Filter>multifit</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\multifit\gsl_multifit.h">
+    <ClInclude Include="..\..\src\multifit\gsl_multifit.h">
       <Filter>multifit</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\multifit\gsl_multifit_nlin.h">
+    <ClInclude Include="..\..\src\multifit\gsl_multifit_nlin.h">
       <Filter>multifit</Filter>
     </ClInclude>
   </ItemGroup>

@@ -21,22 +21,22 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\blas\blas.c">
+    <ClCompile Include="..\..\src\blas\blas.c">
       <Filter>other</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\deriv\deriv.c">
+    <ClCompile Include="..\..\src\deriv\deriv.c">
       <Filter>other</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\dht\dht.c">
+    <ClCompile Include="..\..\src\dht\dht.c">
       <Filter>other</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\diff\diff.c">
+    <ClCompile Include="..\..\src\diff\diff.c">
       <Filter>other</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\fit\linear.c">
+    <ClCompile Include="..\..\src\fit\linear.c">
       <Filter>other</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ntuple\ntuple.c">
+    <ClCompile Include="..\..\src\ntuple\ntuple.c">
       <Filter>other</Filter>
     </ClCompile>
   </ItemGroup>

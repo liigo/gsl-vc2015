@@ -21,60 +21,60 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\interpolation\accel.c">
+    <ClCompile Include="..\..\src\interpolation\accel.c">
       <Filter>interpolation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\interpolation\akima.c">
+    <ClCompile Include="..\..\src\interpolation\akima.c">
       <Filter>interpolation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\interpolation\bicubic.c">
+    <ClCompile Include="..\..\src\interpolation\bicubic.c">
       <Filter>interpolation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\interpolation\bilinear.c">
+    <ClCompile Include="..\..\src\interpolation\bilinear.c">
       <Filter>interpolation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\interpolation\cspline.c">
+    <ClCompile Include="..\..\src\interpolation\cspline.c">
       <Filter>interpolation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\interpolation\inline.c">
+    <ClCompile Include="..\..\src\interpolation\inline.c">
       <Filter>interpolation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\interpolation\interp.c">
+    <ClCompile Include="..\..\src\interpolation\interp.c">
       <Filter>interpolation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\interpolation\interp2d.c">
+    <ClCompile Include="..\..\src\interpolation\interp2d.c">
       <Filter>interpolation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\interpolation\linear.c">
+    <ClCompile Include="..\..\src\interpolation\linear.c">
       <Filter>interpolation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\interpolation\poly.c">
+    <ClCompile Include="..\..\src\interpolation\poly.c">
       <Filter>interpolation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\interpolation\spline.c">
+    <ClCompile Include="..\..\src\interpolation\spline.c">
       <Filter>interpolation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\interpolation\spline2d.c">
+    <ClCompile Include="..\..\src\interpolation\spline2d.c">
       <Filter>interpolation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\interpolation\steffen.c">
+    <ClCompile Include="..\..\src\interpolation\steffen.c">
       <Filter>interpolation</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\interpolation\gsl_interp.h">
+    <ClInclude Include="..\..\src\interpolation\gsl_interp.h">
       <Filter>interpolation</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\interpolation\gsl_interp2d.h">
+    <ClInclude Include="..\..\src\interpolation\gsl_interp2d.h">
       <Filter>interpolation</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\interpolation\gsl_spline.h">
+    <ClInclude Include="..\..\src\interpolation\gsl_spline.h">
       <Filter>interpolation</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\interpolation\gsl_spline2d.h">
+    <ClInclude Include="..\..\src\interpolation\gsl_spline2d.h">
       <Filter>interpolation</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\interpolation\integ_eval.h">
+    <ClInclude Include="..\..\src\interpolation\integ_eval.h">
       <Filter>interpolation</Filter>
     </ClInclude>
   </ItemGroup>

@@ -21,27 +21,27 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\permutation\canonical.c">
+    <ClCompile Include="..\..\src\permutation\canonical.c">
       <Filter>permutation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\permutation\file.c">
+    <ClCompile Include="..\..\src\permutation\file.c">
       <Filter>permutation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\permutation\init.c">
+    <ClCompile Include="..\..\src\permutation\init.c">
       <Filter>permutation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\permutation\inline.c">
+    <ClCompile Include="..\..\src\permutation\inline.c">
       <Filter>permutation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\permutation\permutation.c">
+    <ClCompile Include="..\..\src\permutation\permutation.c">
       <Filter>permutation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\permutation\permute.c">
+    <ClCompile Include="..\..\src\permutation\permute.c">
       <Filter>permutation</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\permutation\gsl_permutation.h">
+    <ClInclude Include="..\..\src\permutation\gsl_permutation.h">
       <Filter>permutation</Filter>
     </ClInclude>
   </ItemGroup>

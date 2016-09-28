@@ -135,9 +135,9 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\multilarge\multilarge.c" />
-    <ClCompile Include="..\..\multilarge\normal.c" />
-    <ClCompile Include="..\..\multilarge\tsqr.c" />
+    <ClCompile Include="..\..\src\multilarge\multilarge.c" />
+    <ClCompile Include="..\..\src\multilarge\normal.c" />
+    <ClCompile Include="..\..\src\multilarge\tsqr.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

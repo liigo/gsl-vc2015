@@ -21,13 +21,13 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\block\block.c">
+    <ClCompile Include="..\..\src\block\block.c">
       <Filter>block</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\block\file.c">
+    <ClCompile Include="..\..\src\block\file.c">
       <Filter>block</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\block\init.c">
+    <ClCompile Include="..\..\src\block\init.c">
       <Filter>block</Filter>
     </ClCompile>
   </ItemGroup>

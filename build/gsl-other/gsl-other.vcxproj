@@ -135,12 +135,12 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\blas\blas.c" />
-    <ClCompile Include="..\..\deriv\deriv.c" />
-    <ClCompile Include="..\..\dht\dht.c" />
-    <ClCompile Include="..\..\diff\diff.c" />
-    <ClCompile Include="..\..\fit\linear.c" />
-    <ClCompile Include="..\..\ntuple\ntuple.c" />
+    <ClCompile Include="..\..\src\blas\blas.c" />
+    <ClCompile Include="..\..\src\deriv\deriv.c" />
+    <ClCompile Include="..\..\src\dht\dht.c" />
+    <ClCompile Include="..\..\src\diff\diff.c" />
+    <ClCompile Include="..\..\src\fit\linear.c" />
+    <ClCompile Include="..\..\src\ntuple\ntuple.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

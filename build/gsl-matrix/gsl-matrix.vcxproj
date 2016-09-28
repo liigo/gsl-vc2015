@@ -135,22 +135,22 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\matrix\copy.c" />
-    <ClCompile Include="..\..\matrix\file.c" />
-    <ClCompile Include="..\..\matrix\getset.c" />
-    <ClCompile Include="..\..\matrix\init.c" />
-    <ClCompile Include="..\..\matrix\matrix.c" />
-    <ClCompile Include="..\..\matrix\minmax.c" />
-    <ClCompile Include="..\..\matrix\oper.c" />
-    <ClCompile Include="..\..\matrix\prop.c" />
-    <ClCompile Include="..\..\matrix\rowcol.c" />
-    <ClCompile Include="..\..\matrix\submatrix.c" />
-    <ClCompile Include="..\..\matrix\swap.c" />
-    <ClCompile Include="..\..\matrix\view.c" />
+    <ClCompile Include="..\..\src\matrix\copy.c" />
+    <ClCompile Include="..\..\src\matrix\file.c" />
+    <ClCompile Include="..\..\src\matrix\getset.c" />
+    <ClCompile Include="..\..\src\matrix\init.c" />
+    <ClCompile Include="..\..\src\matrix\matrix.c" />
+    <ClCompile Include="..\..\src\matrix\minmax.c" />
+    <ClCompile Include="..\..\src\matrix\oper.c" />
+    <ClCompile Include="..\..\src\matrix\prop.c" />
+    <ClCompile Include="..\..\src\matrix\rowcol.c" />
+    <ClCompile Include="..\..\src\matrix\submatrix.c" />
+    <ClCompile Include="..\..\src\matrix\swap.c" />
+    <ClCompile Include="..\..\src\matrix\view.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\matrix\gsl_matrix.h" />
-    <ClInclude Include="..\..\matrix\view.h" />
+    <ClInclude Include="..\..\src\matrix\gsl_matrix.h" />
+    <ClInclude Include="..\..\src\matrix\view.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

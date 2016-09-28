@@ -135,25 +135,25 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\eigen\francis.c" />
-    <ClCompile Include="..\..\eigen\gen.c" />
-    <ClCompile Include="..\..\eigen\genherm.c" />
-    <ClCompile Include="..\..\eigen\genhermv.c" />
-    <ClCompile Include="..\..\eigen\gensymm.c" />
-    <ClCompile Include="..\..\eigen\gensymmv.c" />
-    <ClCompile Include="..\..\eigen\genv.c" />
-    <ClCompile Include="..\..\eigen\herm.c" />
-    <ClCompile Include="..\..\eigen\hermv.c" />
-    <ClCompile Include="..\..\eigen\jacobi.c" />
-    <ClCompile Include="..\..\eigen\nonsymm.c" />
-    <ClCompile Include="..\..\eigen\nonsymmv.c" />
-    <ClCompile Include="..\..\eigen\schur.c" />
-    <ClCompile Include="..\..\eigen\sort.c" />
-    <ClCompile Include="..\..\eigen\symm.c" />
-    <ClCompile Include="..\..\eigen\symmv.c" />
+    <ClCompile Include="..\..\src\eigen\francis.c" />
+    <ClCompile Include="..\..\src\eigen\gen.c" />
+    <ClCompile Include="..\..\src\eigen\genherm.c" />
+    <ClCompile Include="..\..\src\eigen\genhermv.c" />
+    <ClCompile Include="..\..\src\eigen\gensymm.c" />
+    <ClCompile Include="..\..\src\eigen\gensymmv.c" />
+    <ClCompile Include="..\..\src\eigen\genv.c" />
+    <ClCompile Include="..\..\src\eigen\herm.c" />
+    <ClCompile Include="..\..\src\eigen\hermv.c" />
+    <ClCompile Include="..\..\src\eigen\jacobi.c" />
+    <ClCompile Include="..\..\src\eigen\nonsymm.c" />
+    <ClCompile Include="..\..\src\eigen\nonsymmv.c" />
+    <ClCompile Include="..\..\src\eigen\schur.c" />
+    <ClCompile Include="..\..\src\eigen\sort.c" />
+    <ClCompile Include="..\..\src\eigen\symm.c" />
+    <ClCompile Include="..\..\src\eigen\symmv.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\eigen\gsl_eigen.h" />
+    <ClInclude Include="..\..\src\eigen\gsl_eigen.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

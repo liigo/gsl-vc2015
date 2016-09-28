@@ -135,9 +135,9 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\block\block.c" />
-    <ClCompile Include="..\..\block\file.c" />
-    <ClCompile Include="..\..\block\init.c" />
+    <ClCompile Include="..\..\src\block\block.c" />
+    <ClCompile Include="..\..\src\block\file.c" />
+    <ClCompile Include="..\..\src\block\init.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

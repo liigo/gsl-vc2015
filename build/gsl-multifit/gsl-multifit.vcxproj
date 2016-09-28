@@ -139,26 +139,26 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\multifit\convergence.c" />
-    <ClCompile Include="..\..\multifit\covar.c" />
-    <ClCompile Include="..\..\multifit\fdfridge.c" />
-    <ClCompile Include="..\..\multifit\fdfsolver.c" />
-    <ClCompile Include="..\..\multifit\fdjac.c" />
-    <ClCompile Include="..\..\multifit\fsolver.c" />
-    <ClCompile Include="..\..\multifit\gradient.c" />
-    <ClCompile Include="..\..\multifit\linear_common.c" />
-    <ClCompile Include="..\..\multifit\lmder.c" />
-    <ClCompile Include="..\..\multifit\lmniel.c" />
-    <ClCompile Include="..\..\multifit\multilinear.c" />
-    <ClCompile Include="..\..\multifit\multireg.c" />
-    <ClCompile Include="..\..\multifit\multirobust.c" />
-    <ClCompile Include="..\..\multifit\multiwlinear.c" />
-    <ClCompile Include="..\..\multifit\robust_wfun.c" />
-    <ClCompile Include="..\..\multifit\work.c" />
+    <ClCompile Include="..\..\src\multifit\convergence.c" />
+    <ClCompile Include="..\..\src\multifit\covar.c" />
+    <ClCompile Include="..\..\src\multifit\fdfridge.c" />
+    <ClCompile Include="..\..\src\multifit\fdfsolver.c" />
+    <ClCompile Include="..\..\src\multifit\fdjac.c" />
+    <ClCompile Include="..\..\src\multifit\fsolver.c" />
+    <ClCompile Include="..\..\src\multifit\gradient.c" />
+    <ClCompile Include="..\..\src\multifit\linear_common.c" />
+    <ClCompile Include="..\..\src\multifit\lmder.c" />
+    <ClCompile Include="..\..\src\multifit\lmniel.c" />
+    <ClCompile Include="..\..\src\multifit\multilinear.c" />
+    <ClCompile Include="..\..\src\multifit\multireg.c" />
+    <ClCompile Include="..\..\src\multifit\multirobust.c" />
+    <ClCompile Include="..\..\src\multifit\multiwlinear.c" />
+    <ClCompile Include="..\..\src\multifit\robust_wfun.c" />
+    <ClCompile Include="..\..\src\multifit\work.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\multifit\gsl_multifit.h" />
-    <ClInclude Include="..\..\multifit\gsl_multifit_nlin.h" />
+    <ClInclude Include="..\..\src\multifit\gsl_multifit.h" />
+    <ClInclude Include="..\..\src\multifit\gsl_multifit_nlin.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

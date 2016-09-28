@@ -21,15 +21,15 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\splinalg\gmres.c">
+    <ClCompile Include="..\..\src\splinalg\gmres.c">
       <Filter>splinalg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\splinalg\itersolve.c">
+    <ClCompile Include="..\..\src\splinalg\itersolve.c">
       <Filter>splinalg</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\splinalg\gsl_splinalg.h">
+    <ClInclude Include="..\..\src\splinalg\gsl_splinalg.h">
       <Filter>splinalg</Filter>
     </ClInclude>
   </ItemGroup>
