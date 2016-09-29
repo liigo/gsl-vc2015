@@ -1,12 +1,12 @@
 # gsl-vc2015
 
-Static lib projects of GNU GSL 2.1 build with VC2015. by Liigo, 20160616.
+Static lib projects of GNU GSL 2.2.1 build with VC2015. by Liigo, 20160929.
 
-[GNU GSL](http://www.gnu.org/software/gsl/) v2.1 的 VC2015 工程，可编译出在Windows系统下使用的静态库(.lib)。
+[GNU GSL](http://www.gnu.org/software/gsl/) v2.2.1 的 VC2015 工程，可编译出在Windows系统下使用的静态库(.lib)。
 
 本项目生成的静态库使用x86指令集，支持链接到32位可执行程序。如果您需要64位版本，可考虑修改编译配置重新生成，或者考虑使用[ampl-gsl](https://github.com/ampl/gsl/)编译。
 
-由于技术原因，我将GSL各子模块分别编译，共生成 43 个静态库文件（[打包下载](https://github.com/liigo/gsl-vc2015/files/318076/gsl2.1-vc2015-20160616.zip)），列表如下：
+由于技术原因，我将GSL各子模块分别编译，共生成 45 个静态库文件（[打包下载](https://github.com/liigo/gsl-vc2015/files/318076/gsl2.1-vc2015-20160616.zip)），列表如下：
 
 - gsl-block.lib
 - gsl-bspline.lib
@@ -25,7 +25,9 @@ Static lib projects of GNU GSL 2.1 build with VC2015. by Liigo, 20160616.
 - gsl-min.lib
 - gsl-monte.lib
 - gsl-multifit.lib
+- gsl-multifit_nlinear.lib
 - gsl-multilarge.lib
+- gsl-multilarge_nlinear.lib
 - gsl-multimin.lib
 - gsl-multiroots.lib
 - gsl-multiset.lib
@@ -72,6 +74,33 @@ Static lib projects of GNU GSL 2.1 build with VC2015. by Liigo, 20160616.
 打开`build/gsl-tests/gsl-tests.sln`，确认选中Release和x86选项，Build项目`gsl-testlib`，即可编译出库文件`gsl-test.lib`到`build/lib`目录。
 
 编译`build/gsl-tests/gsl-tests.sln`内的其他项目，执行即可看到测试结果。想看测试细节的话，运行前先设置环境变量`set GSL_TEST_VERBOSE=1`。
+
+## 版本升级
+
+如果GNU官方GSL版本升级，需下载其源码合并到子目录src。由于我们未对gsl代码做重要修改，甚至可以直接覆盖目录。注意文件`ieee-utils/fp.c`必须保留以下两行————这是支持Windows的关键：
+```
+#elif _MSC_VER
+#include "fp-win.c"
+```
+
+此外还应注意检查gsl新版对源代码文件的添加和删除，添加的文件要添加进git并添加进相应地vc项目(.vcproj)，删除的文件应从git中删除。如果新增了子模块，参见下文处理。
+
+还要更新`src/gsl/`目录内的所有头文件，它们是从`src`及其各子目录内收集并复制粘贴而来的以`gsl-`为前缀以`.h`为后缀的所有文件。我目前是手工处理的，以后可考虑编程序自动化。
+
+### 添加新項目
+
+如新的GSL版本新增了某个子模块（或称子目录）`xxx`，需在`build/gnu-gsl.sln`解决方案内创建新的静态库项目(Project)。
+
+将新项目命名为`gsl-xxx`，项目类型为"Win32"-"Static library"，在附加选项中取消选中"Precompiled header"和"Security Development Lifecycle (SDL) checks"。
+
+创建完成后，设置如下项目属性（选中"All Configrations"后设置）：
+
+- Output derictory: $(SolutionDir)\lib\
+- Flatform toolset: 140_xp
+
+然后为项目添加虚拟目录（Project - Add new filter），将源文件加入其中。
+
+最好也创建对应的测试项目。测试项目均在`build/gsl-tests/gsl-tests.sln`解决方案内。现有的测试项目仅有少数几个，还非常不全面，有很多的工作要做。
 
 ## License
 
