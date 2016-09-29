@@ -28,7 +28,7 @@
 gsl_multilarge_nlinear_workspace *
 gsl_multilarge_nlinear_alloc (const gsl_multilarge_nlinear_type * T, 
                               const gsl_multilarge_nlinear_parameters * params,
-                              const size_t n, const size_t p)
+                              size_t n, size_t p)
 {
   gsl_multilarge_nlinear_workspace * w;
 

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="multilarge_nlinear">
+      <UniqueIdentifier>{68bbcc5a-9a66-45f5-a73a-899a440b3622}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\multilarge_nlinear\cgst.c">
+      <Filter>multilarge_nlinear</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\multilarge_nlinear\cholesky.c">
+      <Filter>multilarge_nlinear</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\multilarge_nlinear\convergence.c">
+      <Filter>multilarge_nlinear</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\multilarge_nlinear\dogleg.c">
+      <Filter>multilarge_nlinear</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\multilarge_nlinear\dummy.c">
+      <Filter>multilarge_nlinear</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\multilarge_nlinear\fdf.c">
+      <Filter>multilarge_nlinear</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\multilarge_nlinear\lm.c">
+      <Filter>multilarge_nlinear</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\multilarge_nlinear\nielsen.c">
+      <Filter>multilarge_nlinear</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\multilarge_nlinear\scaling.c">
+      <Filter>multilarge_nlinear</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\multilarge_nlinear\gsl_multilarge_nlinear.h">
+      <Filter>multilarge_nlinear</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\multilarge_nlinear\Makefile.am">
+      <Filter>multilarge_nlinear</Filter>
+    </None>
+    <None Include="..\..\src\multilarge_nlinear\Makefile.in">
+      <Filter>multilarge_nlinear</Filter>
+    </None>
+  </ItemGroup>
+</Project>

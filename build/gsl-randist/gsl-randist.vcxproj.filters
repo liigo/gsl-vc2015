@@ -132,6 +132,9 @@
     <ClCompile Include="..\..\src\randist\weibull.c">
       <Filter>randist</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\randist\mvgauss.c">
+      <Filter>randist</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\src\randist\gsl_randist.h">

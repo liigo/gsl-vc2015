@@ -140,6 +140,8 @@
     <ClCompile Include="..\..\src\linalg\bidiag.c" />
     <ClCompile Include="..\..\src\linalg\cholesky.c" />
     <ClCompile Include="..\..\src\linalg\choleskyc.c" />
+    <ClCompile Include="..\..\src\linalg\cod.c" />
+    <ClCompile Include="..\..\src\linalg\condest.c" />
     <ClCompile Include="..\..\src\linalg\exponential.c" />
     <ClCompile Include="..\..\src\linalg\hermtd.c" />
     <ClCompile Include="..\..\src\linalg\hessenberg.c" />
@@ -148,10 +150,13 @@
     <ClCompile Include="..\..\src\linalg\householder.c" />
     <ClCompile Include="..\..\src\linalg\householdercomplex.c" />
     <ClCompile Include="..\..\src\linalg\inline.c" />
+    <ClCompile Include="..\..\src\linalg\invtri.c" />
     <ClCompile Include="..\..\src\linalg\lq.c" />
     <ClCompile Include="..\..\src\linalg\lu.c" />
     <ClCompile Include="..\..\src\linalg\luc.c" />
+    <ClCompile Include="..\..\src\linalg\mcholesky.c" />
     <ClCompile Include="..\..\src\linalg\multiply.c" />
+    <ClCompile Include="..\..\src\linalg\pcholesky.c" />
     <ClCompile Include="..\..\src\linalg\ptlq.c" />
     <ClCompile Include="..\..\src\linalg\qr.c" />
     <ClCompile Include="..\..\src\linalg\qrpt.c" />
@@ -162,6 +167,11 @@
   <ItemGroup>
     <ClInclude Include="..\..\src\linalg\gsl_linalg.h" />
     <ClInclude Include="..\..\src\linalg\tridiag.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\linalg\ChangeLog" />
+    <None Include="..\..\src\linalg\Makefile.am" />
+    <None Include="..\..\src\linalg\Makefile.in" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -90,6 +90,21 @@
     <ClCompile Include="..\..\src\linalg\tridiag.c">
       <Filter>linalg</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\linalg\cod.c">
+      <Filter>linalg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\linalg\condest.c">
+      <Filter>linalg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\linalg\invtri.c">
+      <Filter>linalg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\linalg\mcholesky.c">
+      <Filter>linalg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\linalg\pcholesky.c">
+      <Filter>linalg</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\src\linalg\gsl_linalg.h">
@@ -98,5 +113,16 @@
     <ClInclude Include="..\..\src\linalg\tridiag.h">
       <Filter>linalg</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\linalg\ChangeLog">
+      <Filter>linalg</Filter>
+    </None>
+    <None Include="..\..\src\linalg\Makefile.am">
+      <Filter>linalg</Filter>
+    </None>
+    <None Include="..\..\src\linalg\Makefile.in">
+      <Filter>linalg</Filter>
+    </None>
   </ItemGroup>
 </Project>

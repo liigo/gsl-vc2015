@@ -45,6 +45,9 @@
     <ClCompile Include="..\..\src\spmatrix\spswap.c">
       <Filter>spmatrix</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\spmatrix\spio.c">
+      <Filter>spmatrix</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\src\spmatrix\gsl_spmatrix.h">

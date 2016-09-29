@@ -163,6 +163,7 @@
     <ClCompile Include="..\..\src\randist\logistic.c" />
     <ClCompile Include="..\..\src\randist\lognormal.c" />
     <ClCompile Include="..\..\src\randist\multinomial.c" />
+    <ClCompile Include="..\..\src\randist\mvgauss.c" />
     <ClCompile Include="..\..\src\randist\nbinomial.c" />
     <ClCompile Include="..\..\src\randist\pareto.c" />
     <ClCompile Include="..\..\src\randist\pascal.c" />
