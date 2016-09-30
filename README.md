@@ -6,7 +6,7 @@ Static lib projects of GNU GSL 2.2.1 build with VC2015. by Liigo, 20160929.
 
 本项目生成的静态库使用x86指令集，支持链接到32位可执行程序。如果您需要64位版本，可考虑修改编译配置重新生成，或者考虑使用[ampl-gsl](https://github.com/ampl/gsl/)编译。
 
-由于技术原因，我将GSL各子模块分别编译，共生成 45 个静态库文件（[打包下载](https://github.com/liigo/gsl-vc2015/files/318076/gsl2.1-vc2015-20160616.zip)），列表如下：
+由于技术原因，我将GSL各子模块分别编译，共生成 45 个静态库文件（[打包下载](https://github.com/liigo/gsl-vc2015/files/501970/gsl2.2.1-vc2015-20160929.zip)），列表如下：
 
 - gsl-block.lib
 - gsl-bspline.lib
