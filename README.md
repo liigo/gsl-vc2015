@@ -102,6 +102,83 @@ Static lib projects of GNU GSL 2.2.1 build with VC2015. by Liigo, 20160929.
 
 最好也创建对应的测试项目。测试项目均在`build/gsl-tests/gsl-tests.sln`解决方案内。现有的测试项目仅有少数几个，还非常不全面，有很多的工作要做。
 
+## 应用到Rust项目
+
+- 安装`stable-i686-pc-windows-msvc`工具链
+
+```
+rustup toolchain install stable-i686-pc-windows-msvc
+rustup default stable-i686-pc-windows-msvc
+```
+
+- 复制以下代码到`lib.rs`(或其他任意.rs文件)
+
+```
+#[link(name="gsl-block")]
+#[link(name="gsl-bspline")]
+#[link(name="gsl-cblas")]
+#[link(name="gsl-cdf")]
+#[link(name="gsl-cheb")]
+#[link(name="gsl-combination")]
+#[link(name="gsl-complex")]
+#[link(name="gsl-eigen")]
+#[link(name="gsl-fft")]
+#[link(name="gsl-histogram")]
+#[link(name="gsl-integration")]
+#[link(name="gsl-interpolation")]
+#[link(name="gsl-linalg")]
+#[link(name="gsl-matrix")]
+#[link(name="gsl-min")]
+#[link(name="gsl-monte")]
+#[link(name="gsl-multifit")]
+#[link(name="gsl-multifit_nlinear")]
+#[link(name="gsl-multilarge")]
+#[link(name="gsl-multilarge_nlinear")]
+#[link(name="gsl-multimin")]
+#[link(name="gsl-multiroots")]
+#[link(name="gsl-multiset")]
+#[link(name="gsl-ode-initval")]
+#[link(name="gsl-ode-initval2")]
+#[link(name="gsl-other")]
+#[link(name="gsl-permutation")]
+#[link(name="gsl-poly")]
+#[link(name="gsl-qrng")]
+#[link(name="gsl-randist")]
+#[link(name="gsl-rng")]
+#[link(name="gsl-roots")]
+#[link(name="gsl-rstat")]
+#[link(name="gsl-siman")]
+#[link(name="gsl-sort")]
+#[link(name="gsl-spblas")]
+#[link(name="gsl-specfunc")]
+#[link(name="gsl-splinalg")]
+#[link(name="gsl-spmatrix")]
+#[link(name="gsl-statistics")]
+#[link(name="gsl-sum")]
+#[link(name="gsl-sys")]
+#[link(name="gsl-test")]
+#[link(name="gsl-vector")]
+#[link(name="gsl-wavelet")]
+extern {}
+```
+
+- 在项目根目录内创建子目录`.cargo`，并在其中创建文本文件`config`
+
+文件内容如下：
+
+```
+[build]
+rustflags = ["-Clink_args=/LIBPATH:lib"]
+```
+
+配置文件`.cargo\config`指示VC连接器在`lib`目录内加载`gsl-*.lib`文件。
+
+- 在项目根目录内创建子目录`lib`，把编译或下载的所有`gsl-*.lib`文件放进去
+
+- 在项目根目录内执行 `cargo build` 编译项目
+
+注：可考虑配合 https://github.com/GuillaumeGomez/rust-GSL 使用。
+
 ## License
 
 [GNU GSL](http://www.gnu.org/software/gsl/)的开源协议是GPL，因而本项目的开源协议也是GPL。
