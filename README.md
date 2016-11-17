@@ -1,10 +1,10 @@
 # gsl-vc2015
 
-Static lib projects of GNU GSL 2.2.1 build with VC2015. by Liigo, 20160929.
+Static lib projects of GNU GSL 2.2.1 build with VC2015. by Liigo, 2016/11.
 
-[GNU GSL](http://www.gnu.org/software/gsl/) v2.2.1 的 VC2015 工程，可编译出在Windows系统下使用的静态库(.lib)。
+[GNU GSL](http://www.gnu.org/software/gsl/) v2.2.1 的 VC2015 工程，可编译出在Windows系统下使用的静态链接库(.lib)。
 
-本项目生成的静态库使用x86指令集，支持链接到32位可执行程序。如果您需要64位版本，可考虑修改编译配置重新生成，或者考虑使用[ampl-gsl](https://github.com/ampl/gsl/)编译。
+本项目生成的静态库使用x86指令集，支持链接到32位可执行程序，支持XP系统。如果您需要64位版本，可考虑修改编译配置重新生成，或者考虑使用[ampl-gsl](https://github.com/ampl/gsl/)编译。
 
 由于技术原因，我将GSL各子模块分别编译，共生成 45 个静态库文件（[打包下载](https://github.com/liigo/gsl-vc2015/files/501970/gsl2.2.1-vc2015-20160929.zip)），列表如下：
 
@@ -102,7 +102,7 @@ Static lib projects of GNU GSL 2.2.1 build with VC2015. by Liigo, 20160929.
 
 最好也创建对应的测试项目。测试项目均在`build/gsl-tests/gsl-tests.sln`解决方案内。现有的测试项目仅有少数几个，还非常不全面，有很多的工作要做。
 
-## 应用到Rust项目
+## 在Rust项目中使用
 
 - 安装`stable-i686-pc-windows-msvc`工具链
 
