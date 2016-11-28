@@ -15,7 +15,7 @@ Static lib projects of GNU GSL 2.2.1 build with VC2015. by Liigo, 2016/11.
 
 使用这些静态库的程序和库最好也用同样的编译参数编译。
 
-由于技术原因，我将GSL各子模块分别编译，共生成 45 个静态库文件（[打包下载](https://github.com/liigo/gsl-vc2015/files/501970/gsl2.2.1-vc2015-20160929.zip)），列表如下：
+由于技术原因，我将GSL各子模块分别编译，共生成 45 个静态库文件（[打包下载](https://github.com/liigo/gsl-vc2015/files/615772/gsl2.2.1-vc2015-20161128.zip)），列表如下：
 
 - gsl-block.lib
 - gsl-bspline.lib
