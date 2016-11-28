@@ -114,12 +114,14 @@ Static lib projects of GNU GSL 2.2.1 build with VC2015. by Liigo, 2016/11.
 
 ## 在Rust项目中使用
 
-- 安装`stable-i686-pc-windows-msvc`工具链
+- 安装`nightly-i686-pc-windows-msvc`工具链
 
 ```
-rustup toolchain install stable-i686-pc-windows-msvc
-rustup default stable-i686-pc-windows-msvc
+rustup toolchain install nightly-i686-pc-windows-msvc
+rustup default nightly-i686-pc-windows-msvc
 ```
+
+静态链接C运行库是Rust 1.15 nightly新引入的功能，需要Rust 1.15或以上版本。
 
 - 复制以下代码到`lib.rs`(或其他任意.rs文件)
 
@@ -178,10 +180,10 @@ extern {}
 
 ```
 [build]
-rustflags = ["-Clink_args=/LIBPATH:lib"]
+rustflags = ["-Clink-args=/LIBPATH:lib", "-Ctarget-feature=+crt-static", "-Zunstable-options"]
 ```
 
-配置文件`.cargo\config`指示VC连接器在`lib`目录内加载`gsl-*.lib`文件。
+配置文件`.cargo\config`，指示Rust编译器静态链接C运行库，指示VC连接器在`lib`目录内加载`gsl-*.lib`文件。
 
 - 在项目根目录内创建子目录`lib`，把编译或下载的所有`gsl-*.lib`文件放进去
 
