@@ -4,7 +4,16 @@ Static lib projects of GNU GSL 2.2.1 build with VC2015. by Liigo, 2016/11.
 
 [GNU GSL](http://www.gnu.org/software/gsl/) v2.2.1 的 VC2015 工程，可编译出在Windows系统下使用的静态链接库(.lib)。
 
-本项目生成的静态库使用x86指令集，支持链接到32位可执行程序，支持XP系统。如果您需要64位版本，可考虑修改编译配置重新生成，或者考虑使用[ampl-gsl](https://github.com/ampl/gsl/)编译。
+本项目生成的静态库使用x86指令集，支持静态链接到32位可执行程序，支持XP系统。如果您需要64位版本，可考虑修改编译配置重新生成，或者考虑使用[ampl-gsl](https://github.com/ampl/gsl/)编译。
+
+编译本项目静态库所用的重要编译参数：
+
+- Platform toolset: Visual Studio 2015 - Windows XP (v140_xp)
+- C/C++ Code Generation: Runtime Library: Multi-threaded (/MT)
+
+其中`/MT`参数意味着静态链接C运行库，即运行时不依赖C运行库。
+
+使用这些静态库的程序和库最好也用同样的编译参数编译。
 
 由于技术原因，我将GSL各子模块分别编译，共生成 45 个静态库文件（[打包下载](https://github.com/liigo/gsl-vc2015/files/501970/gsl2.2.1-vc2015-20160929.zip)），列表如下：
 
@@ -96,7 +105,8 @@ Static lib projects of GNU GSL 2.2.1 build with VC2015. by Liigo, 2016/11.
 创建完成后，设置如下项目属性（选中"All Configrations"后设置）：
 
 - Output derictory: $(SolutionDir)\lib\
-- Flatform toolset: 140_xp
+- Platform toolset: Visual Studio 2015 - Windows XP (v140_xp)
+- C/C++ Code Generation: Runtime Library: Multi-threaded (/MT) （调试版为/MTd）
 
 然后为项目添加虚拟目录（Project - Add new filter），将源文件加入其中。
 
